@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+/*RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.grid{
+    width: 90%;
+    margin: 0 auto;
+    /*HABILITO GRILLA*/
+    display: grid;
+    /*DECLARO FILAS Y COLUMNAS*/
+    grid-template-rows: 80px 650px 500px 90px;
+    grid-template-columns: repeat(3,1fr);
+
+    /*DECLARO AEREAS*/
+    grid-template-areas: 
+    "nav nav nav"
+    "header header aside"
+    "main main main"
+    "footer footer footer"
+    ;
+
+}
+
+/*MAIN*/
+
+.encabezado{
+    list-style:none;
+    font-family: 'DynaPuff', cursive;
+    width: 600;
+    font-style: semibold;
+    padding: 20px;
+    background-color: rgb(213, 218, 218);
+    text-align: center;
+    grid-area: nav;
+}
+
+.encabezado__lista li{
+    display: inline;
+    margin: 20px 10px 20px 10px;
+}
+
+.encabezado__lista a{
+    text-decoration:none;
+    color: black;
+}
+
+.hero{
+    grid-area: header;
+    background-color: rgb(213, 218, 218);
+    text-align: center;
+}
+
+
+.frente{
+    text-align: center;
+    
+}
+
+.ferre{
+    font-family: 'DynaPuff', cursive;
+    font-style: semibold;
+    text-align: center;
+}
+
+.aside{
+    grid-area: aside;
+    background-color: rgb(213, 218, 218);
+}
+
+.main{
+    grid-area: main;
+    background-color: rgb(213, 218, 218);
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 360px;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.carousel-item img{
+    width: 500px;
+    height: 350px ;
+    justify-items: center;
+}
+
+.nosotros{
+    background-color: rgb(213, 218, 218);
+    font-family: 'DynaPuff', cursive;
+    font-style: semibold;
+    text-align: center;
+}
+
+.servicios{
+    background-color: rgb(213, 218, 218);
+    text-align: center;
+}
+
+/*---------FOOTER------------*/
+
+.footer{
+    grid-area: footer;
+    background-color: rgb(213, 218, 218);
+    margin: 0;
+}
+
+footer div img{
+    margin: 0;
+    padding: 10px;
+}
+
+footer div{
+    background-color: rgb(213, 218, 218);
+}
+
+.tarejtas-credito{
+    background-position:center;
+    width: 80%;
+    height: 300px;
+}
+
+
+footer div h2{
+    font-family: 'DynaPuff', cursive;
+    width: 600;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+
+
+.navegacion{
+    font-family: 'DynaPuff', cursive;
+    width: 600;
+    padding: 20px;
+    text-align: center;
+}
+
+.navegacion ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navegacion ul li a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.piedepagina{
+    display: flex;
+    justify-content:space-around;
+    height: 200px;
+}
+
+@media screen and (max-width:950px) {
+    .grid{
+        width: 90%;
+        margin: 0;
+        display: grid;
+        grid-template-rows: 80px 650px 500px 300px 90px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+        "nav nav"
+        "header header"
+        "aside aside"
+        "main main"
+        "footer footer"
+        ;
+        
+    }
+}
