@@ -401,13 +401,5 @@ footer div h2{
 
 }*/
 
-@media screen and (max-width:550px){
-
-    .catalogo{
-        display: flex;
-        flex-wrap: wrap;
-
-
-}
 
 
