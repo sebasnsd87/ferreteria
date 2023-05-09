@@ -15,7 +15,7 @@
     /*HABILITO GRILLA*/
     display: grid;
     /*DECLARO FILAS Y COLUMNAS*/
-    grid-template-rows: 80px 650px 500px 90px;
+    grid-template-rows: 80px 550px 210px 90px;
     grid-template-columns: repeat(3,1fr);
 
     /*DECLARO AEREAS*/
@@ -29,6 +29,11 @@
 }
 
 /*MAIN*/
+
+.grid{
+    width: 100%;
+    height: 600px;
+}
 
 .encabezado{
     list-style:none;
@@ -77,18 +82,21 @@
 .main{
     grid-area: main;
     background-color: rgb(213, 218, 218);
+    width: 100%;
+    height: 220px;
+    margin: 0;
 }
 
 .carousel-inner{
     width: 100%;
-    height: 360px;
+    height: 200px;
     border: 2px black solid;
     border-radius: 5px;
 }
 
 .carousel-item img{
     width: 500px;
-    height: 350px ;
+    height: 200px;
     justify-items: center;
 }
 
@@ -104,11 +112,111 @@
     text-align: center;
 }
 
+.carro{
+    width: 100%;
+    height: 200px;
+}
+
+.producto-main__subtitulo{
+    text-align: center;
+    background-color: rgb(213, 218, 218);
+}
+
+.catalogo{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(213, 218, 218) ;
+}
+
+.catalogo div{
+    width: 300px;
+    height: 255px;
+    margin: 20px;
+    background-color: rgb(213, 218, 218);
+}
+
+.catalogo div h4{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.catalogo div img{
+    width: 100%;
+    height: 195px;
+    display: flex;
+    justify-content:center;
+}
+
+.catalogo div button{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 10px;
+}
+
+.catalogo__contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.catalogo__contenedor a{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(206, 138, 55);
+    color: black;
+    font-family: 'DynaPuff', cursive;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.catalogo__contenedor h4{
+    font-family: 'DynaPuff', cursive;
+    background-color: rgb(206, 138, 55);
+}
+
+.catalogo-dos{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(213, 218, 218) ;
+}
+
+.catalogo-dos div{
+    width: 300px;
+    height: 255px;
+}
+
+.catalogo-dos div h4{
+    display: flex;
+    justify-content: center;
+}
+
+
+.catalogo-dos div img{
+    width: 100%;
+    height: 195px;
+    display: flex;
+    justify-content:center;
+}
+
+.catalogo-dos div button{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 10px;
+}
+
+
 /*---------FOOTER------------*/
 
 .footer{
     grid-area: footer;
     background-color: rgb(213, 218, 218);
+    width: 100%;
+    height: 400px;
     margin: 0;
 }
 
@@ -121,10 +229,11 @@ footer div{
     background-color: rgb(213, 218, 218);
 }
 
-.tarejtas-credito{
-    background-position:center;
-    width: 80%;
-    height: 300px;
+.tarejtas-credito img{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -147,8 +256,8 @@ footer div h2{
 
 .navegacion ul li{
     list-style: none;
-    display: inline-block;
-    margin: 10px;
+    display: inline;
+    margin: 20px 10px 20px 10px;
     padding: 10px;
 }
 
@@ -162,15 +271,15 @@ footer div h2{
 .piedepagina{
     display: flex;
     justify-content:space-around;
-    height: 200px;
+    height: 100px;
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:990px) {
     .grid{
-        width: 90%;
+        width: 100%;
         margin: 0;
         display: grid;
-        grid-template-rows: 80px 650px 500px 300px 90px;
+        grid-template-rows: 60px 530px 270px 220px 300px;
         grid-template-columns: repeat(2,1fr);
         grid-template-areas: 
         "nav nav"
@@ -179,6 +288,126 @@ footer div h2{
         "main main"
         "footer footer"
         ;
+    }
+
+    .frente{
+        width: 100%;
+        height: 400px;
+    }
+    .aside img{
+        width: 100%;
+        height: 250px;
+    }
+
+    .tarejtas-credito img{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width:550px){
+    .grid{
+        width: 100%;
+        margin: 0;
+        display: grid;
+        grid-template-rows: 60px 550px 270px 220px 300px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+        "nav nav"
+        "header header"
+        "aside aside"
+        "main main"
+        "footer footer"
+        ;
+    }
+
+    .encabezado{
+        list-style:none;
+        font-family: 'DynaPuff', cursive;
+        width: 100;
+        font-style: italic;
+        padding: 5px;
+        background-color: rgb(213, 218, 218);
+        text-align: center;
         
     }
+
+    .ferre__titulo h2{
+        font-family: 'DynaPuff', cursive;
+        width: 300;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .ferre__titulo h3{
+        font-family: 'DynaPuff', cursive;
+        width: 100;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .tarejtas-credito img{
+        width: 10%;
+        height: 50px;
+        
+    }
+
+    footer div h2{
+        font-family: 'DynaPuff', cursive;
+        width: 200;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        padding: 10px;
+    }
+
+    .navegacion{
+        list-style: none;
+        font-family: 'DynaPuff', cursive;
+        font-style: italic;
+        width: 100;
+        display: inline;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+        background-color: rgb(213, 218, 218);
+    }
 }
+
+/*@media screen and (max-width:380px){
+    .grid{
+        width: 100%;
+        margin: 0;
+        display: grid;
+        grid-template-rows: 60px 550px 270px 220px 300px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+        "nav"
+        "header"
+        "aside"
+        "main"
+        "footer"
+        ;
+    }
+
+    .frente img{
+        height: 500px;
+    }
+
+    
+
+}*/
+
+@media screen and (max-width:550px){
+
+    .catalogo{
+        display: flex;
+        flex-wrap: wrap;
+
+
+}
+
+
