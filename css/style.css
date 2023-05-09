@@ -250,9 +250,9 @@ footer div{
     background-color: rgb(213, 218, 218);
 }
 
-.tarejtas-credito img{
+.tarejtas img{
     width: 90%;
-    height: 100px;
+    height: 100vw;
     display: flex;
     align-items: center;
 }
@@ -320,7 +320,7 @@ footer div h2{
         height: 250px;
     }
 
-    .tarejtas-credito img{
+    .tarejtas img{
         width: 100%;
         height: 80px;
         display: flex;
@@ -394,8 +394,8 @@ footer div h2{
         text-align: center;
     }
 
-    .tarejtas-credito img{
-        width: 100vw;
+    .tarejtas img{
+        width: 100%;
         
         
     }
@@ -454,7 +454,7 @@ footer div h2{
         display: none;
     }
 
-    .tarejtas-credito{
+    .tarejtas img{
         width: 100%;
     }
     
