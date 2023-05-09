@@ -243,6 +243,7 @@
 
 footer div img{
     margin: 0;
+    width: 100%;
     padding: 10px;
 }
 
@@ -313,7 +314,7 @@ footer div h2{
 
     .frente{
         width: 100%;
-        height: 400px;
+        height: 200px;
     }
     .aside img{
         width: 100%;
@@ -327,19 +328,58 @@ footer div h2{
         align-items: center;
     }
 
+    .catalogo div{
+        width: 120px;
+        height: 120px;
+        margin: 20px;
+        background-color: rgb(213, 218, 218);
+    }
+    
+    .catalogo-dos div{
+        width: 120px;
+        height: 120px;
+        margin: 20px;
+        background-color: rgb(213, 218, 218);
+    }
+
+    .catalgo img{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content:center;
+    }
+
+
     .catalogo__contenedor{
         width: 100%;
-        display: flex;
         flex-wrap: wrap;
         background-color: rgb(213, 218, 218) ;
     }
 
-    /*.catalogo-dos{
+    .catalogo-dos div{
         width: 100%;
-        display: flex;
-        justify-content: space-around;
+        flex-wrap: wrap;
         background-color: rgb(213, 218, 218) ;
-    }*/
+    }
+
+    .catalogo-dos div h4{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .catalogo-dos div img{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content:center;
+    }
+    
+    .catalogo-dos div button{
+        background-color: black;
+        color: blanchedalmond;
+        padding: 10px;
+    }
     
 }
 
@@ -443,7 +483,7 @@ footer div h2{
 
     .frente img{
         width: 100%;
-        height: 350px;
+        height: 400px;
         padding: 5px;
         display: flex;
         flex-direction: column;
@@ -464,7 +504,28 @@ footer div h2{
 
     .navegacion{
         list-style: none;
-        font-family: 'DynaPuff', cursive;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic 100;
+        width: 100px;
+        display:list-item;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+        background-color: rgb(213, 218, 218);
+    }
+
+    footer div h2{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 100;
+        text-decoration: none;
+        text-align: center;
+        font-style: normal;
+        color: black;
+        padding: 10px;
+    }
+    .encabezado{
+        list-style: none;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-style: italic;
         width: 100;
         display:list-item;
@@ -474,36 +535,17 @@ footer div h2{
         background-color: rgb(213, 218, 218);
     }
 
-    footer div h2{
-        font-family: 'DynaPuff', cursive;
-        width: 100;
-        text-decoration: none;
-        text-align: center;
-        color: black;
-        padding: 10px;
-    }
-    .encabezado{
-        list-style:none;
-        font-family: 'DynaPuff', cursive;
-        width: 100;
-        font-style: italic;
-        padding: 5px;
-        background-color: rgb(213, 218, 218);
-        text-align: center;
-        
-    }
-
     .ferre__titulo h2{
-        font-family: 'DynaPuff', cursive;
-        width: 200;
-        font-style: italic;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 100;
+        font-style:normal;
         text-align: center;
     }
 
     .ferre__titulo h3{
-        font-family: 'DynaPuff', cursive;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         width: 100;
-        font-style: italic;
+        font-style: normal;
         text-align: center;
     }
 }
