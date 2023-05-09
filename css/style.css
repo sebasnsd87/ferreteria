@@ -318,9 +318,9 @@ footer div h2{
         display: flex;
         justify-content: space-around;
         background-color: rgb(213, 218, 218) ;
-    }
+    }*/
     
-}*/
+}
 
 @media screen and (max-width:850px){
     .catalogo__contenedor{
@@ -486,4 +486,3 @@ footer div h2{
         text-align: center;
     }
 }
-
