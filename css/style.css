@@ -277,7 +277,7 @@ footer div h2{
 @media screen and (max-width:990px) {
     .grid{
         width: 100%;
-        margin: 0;
+        /*margin: 0;*/
         display: grid;
         grid-template-rows: 60px 530px 270px 220px 300px;
         grid-template-columns: repeat(2,1fr);
@@ -305,8 +305,32 @@ footer div h2{
         display: flex;
         align-items: center;
     }
+
+    .catalogo__contenedor{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(213, 218, 218) ;
+    }
+
+    /*.catalogo-dos{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(213, 218, 218) ;
+    }
     
+}*/
+
+@media screen and (max-width:850px){
+    .catalogo__contenedor{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(213, 218, 218) ;
+    }
 }
+
 
 @media screen and (max-width:550px){
     .grid{
@@ -375,9 +399,13 @@ footer div h2{
         text-align: center;
         background-color: rgb(213, 218, 218);
     }
+
+    .aside{
+        width: 100%;
+    }
 }
 
-/*@media screen and (max-width:380px){
+@media screen and (max-width:380px){
     .grid{
         width: 100%;
         margin: 0;
@@ -388,18 +416,71 @@ footer div h2{
         "nav"
         "header"
         "aside"
-        "main"
         "footer"
         ;
     }
 
     .frente img{
-        height: 500px;
+        margin: 100%;
     }
 
-    
+    .carro{
+        display: none;
+    }
 
-}*/
+    .tarejtas-credito{
+        width: 100%;
+    }
+    
+    .aside{
+        width: 100%;
+    }
+
+    .navegacion{
+        list-style: none;
+        font-family: 'DynaPuff', cursive;
+        font-style: italic;
+        width: 100;
+        display: inline;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+        background-color: rgb(213, 218, 218);
+    }
+
+    footer div h2{
+        font-family: 'DynaPuff', cursive;
+        width: 100;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        padding: 10px;
+    }
+    .encabezado{
+        list-style:none;
+        font-family: 'DynaPuff', cursive;
+        width: 100;
+        font-style: italic;
+        padding: 5px;
+        background-color: rgb(213, 218, 218);
+        text-align: center;
+        
+    }
+
+    .ferre__titulo h2{
+        font-family: 'DynaPuff', cursive;
+        width: 200;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .ferre__titulo h3{
+        font-family: 'DynaPuff', cursive;
+        width: 100;
+        font-style: italic;
+        text-align: center;
+    }
+}
 
 
 
