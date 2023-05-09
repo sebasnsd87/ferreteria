@@ -209,6 +209,27 @@
     padding: 10px;
 }
 
+.contacto-main h2{
+    text-align: center;
+    background-color: rgb(213, 218, 218) ;
+}
+
+.mensaje div{
+    color: black;
+    display: flex;
+    justify-content:center;
+    background-color: rgb(213, 218, 218) ;
+}
+
+.mensaje div label{
+    font-family: 'DynaPuff', cursive;
+
+}
+
+.ubicacion iframe{
+    width: 100%;
+}
+
 
 /*---------FOOTER------------*/
 
@@ -374,8 +395,8 @@ footer div h2{
     }
 
     .tarejtas-credito img{
-        width: 10%;
-        height: 50px;
+        width: 100vw;
+        
         
     }
 
