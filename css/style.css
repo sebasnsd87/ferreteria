@@ -326,7 +326,7 @@ footer div h2{
     .catalogo__contenedor{
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction:row;
         background-color: rgb(213, 218, 218) ;
     }
 }
@@ -417,11 +417,16 @@ footer div h2{
         "header"
         "aside"
         "footer"
-        ;
+        
     }
 
     .frente img{
-        margin: 100%;
+        width: 100%;
+        height: 350px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .carro{
@@ -441,7 +446,7 @@ footer div h2{
         font-family: 'DynaPuff', cursive;
         font-style: italic;
         width: 100;
-        display: inline;
+        display:list-item;
         margin: 5px;
         padding: 5px;
         text-align: center;
@@ -481,6 +486,4 @@ footer div h2{
         text-align: center;
     }
 }
-
-
 
