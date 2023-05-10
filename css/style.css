@@ -36,7 +36,7 @@
     display: grid;
     /*DECLARO FILAS Y COLUMNAS*/
     grid-template-rows: 80px 200px 600px 150px;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat (3, 1fr);
 
     /*DECLARO AEREAS*/
     grid-template-areas: 
@@ -196,7 +196,7 @@
 }
 
 
-.catalogo__contenedor a{
+.catalogo__contenedor-1 a{
     width: 100%;
     height: 40px;
     background-color: rgb(206, 138, 55);
@@ -207,7 +207,7 @@
     justify-content: center;
 }
 
-.catalogo__contenedor h4{
+.catalogo__contenedor-1 h4{
     font-family: 'DynaPuff', cursive;
     background-color: rgb(206, 138, 55);
 }
@@ -217,6 +217,92 @@
     text-align: center;
     background-color: rgb(213, 218, 218) ;
 }
+
+.catalogo__contenedor-2 a{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(206, 138, 55);
+    color: black;
+    font-family: 'DynaPuff', cursive;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.catalogo__contenedor-2 h4{
+    font-family: 'DynaPuff', cursive;
+    background-color: rgb(206, 138, 55);
+}
+
+
+.catalogo__contenedor-3 a{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(206, 138, 55);
+    color: black;
+    font-family: 'DynaPuff', cursive;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.catalogo__contenedor-3 h4{
+    font-family: 'DynaPuff', cursive;
+    background-color: rgb(206, 138, 55);
+}
+
+
+
+.catalogo__contenedor-4 a{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(206, 138, 55);
+    color: black;
+    font-family: 'DynaPuff', cursive;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.catalogo__contenedor-4 h4{
+    font-family: 'DynaPuff', cursive;
+    background-color: rgb(206, 138, 55);
+}
+
+
+.catalogo__contenedor-5 a{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(206, 138, 55);
+    color: black;
+    font-family: 'DynaPuff', cursive;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.catalogo__contenedor-5 h4{
+    font-family: 'DynaPuff', cursive;
+    background-color: rgb(206, 138, 55);
+}
+
+
+.catalogo__contenedor-6 a{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(206, 138, 55);
+    color: black;
+    font-family: 'DynaPuff', cursive;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.catalogo__contenedor-6 h4{
+    font-family: 'DynaPuff', cursive;
+    background-color: rgb(206, 138, 55);
+}
+
 
 .mensaje div{
     color: black;
@@ -304,17 +390,17 @@ footer div h2{
 @media screen and (max-width:1200px){
     .gridDos{
         width: 100%;
-        /*margin: 0;*/
         display: grid;
-        grid-template-rows: 60px 200px 200px 200px 200px 300px;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 100px 200px 200px 200px 200px 300px;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-areas: 
-        "nav"
-        "header"
-        "aside"
-        "main"
-        "footer"
+        "nav nav"
+        "header header"
+        "main main"
+        "footer footer"
         ;
+        
+        
     }
 
     .frente{
@@ -327,21 +413,16 @@ footer div h2{
         height: 290px;
     }
 
-    .aside img{
-        width: 100%;
-        height: 250px;
-    }
 
     .catalogo{
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        flex-direction:row;
         background-color: rgb(213, 218, 218) ;
     }
     
     .catalogo div{
-        width: 200px;
-        height: 150px;
+        width: 100%;
+        height: 100px;
         margin: 20px;
         background-color: rgb(213, 218, 218);
     }
@@ -354,13 +435,13 @@ footer div h2{
     
     .catalogo div img{
         width: 100%;
-        height: 150px;
+        height: 100px;
         display: flex;
         justify-content:center;
     }
     
     
-    .catalogo__contenedor a{
+    .catalogo__contenedor-1 a{
         width: 100%;
         height: 40px;
         background-color: rgb(206, 138, 55);
@@ -371,9 +452,94 @@ footer div h2{
         justify-content: center;
     }
     
-    .catalogo__contenedor h4{
+    .catalogo__contenedor-1 h4{
         font-family: 'DynaPuff', cursive;
         background-color: rgb(206, 138, 55);
+    }
+
+    .catalogo__contenedor-2 a{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(206, 138, 55);
+        color: black;
+        font-family: 'DynaPuff', cursive;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .catalogo__contenedor-2 h4{
+        font-family: 'DynaPuff', cursive;
+        background-color: rgb(206, 138, 55);
+    }
+
+    .catalogo__contenedor-3 a{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(206, 138, 55);
+        color: black;
+        font-family: 'DynaPuff', cursive;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .catalogo__contenedor-3 h4{
+        font-family: 'DynaPuff', cursive;
+        background-color: rgb(206, 138, 55);
+    }
+
+    .catalogo__contenedor-4 a{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(206, 138, 55);
+        color: black;
+        font-family: 'DynaPuff', cursive;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .catalogo__contenedor-4 h4{
+        font-family: 'DynaPuff', cursive;
+        background-color: rgb(206, 138, 55);
+    }
+
+    .catalogo__contenedor-5 a{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(206, 138, 55);
+        color: black;
+        font-family: 'DynaPuff', cursive;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .catalogo__contenedor-5 h4{
+        font-family: 'DynaPuff', cursive;
+        background-color: rgb(206, 138, 55);
+    }
+
+    .catalogo__contenedor-6 a{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(206, 138, 55);
+        color: black;
+        font-family: 'DynaPuff', cursive;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .catalogo__contenedor-6 h4{
+        font-family: 'DynaPuff', cursive;
+        background-color: rgb(206, 138, 55);
+    }
+
+    .footer{
+        width: 100%;
+        height: 250px;
     }
     
 
