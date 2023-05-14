@@ -57,6 +57,24 @@
     grid-area: nav;
 }
 
+.encabezado h1{
+    animation-name: titulo;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+}
+
+@keyframes titulo{
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+    to{
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
 .encabezado__lista li{
     display: inline;
     margin: 20px 10px 20px 10px;
@@ -189,6 +207,10 @@
     -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
 box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+}
+
+.catalogo div:hover{
+    transform: scale(1.1);
 }
 
 .catalogo div h4{
@@ -394,6 +416,10 @@ footer div h2{
     display: flex;
     justify-content:space-around;
     height: 100px;
+}
+
+.piedepagina a:hover{
+    transform: scale(1.1);
 }
 
 
