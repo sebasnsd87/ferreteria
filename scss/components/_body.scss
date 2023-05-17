@@ -22,6 +22,35 @@
     height: 300px;
 }
 
+header .hero{
+    nav .encabezado{
+        list-style:none;
+        font-family: 'Montserrat', sans-serif;
+        width: 600;
+        font-style: semibold;
+        padding: 10px;
+        background-color: rgb(213, 218, 218);
+        text-align: center;
+        grid-area: nav;
+        }   
+}
+
+.main{
+    grid-area: main;
+    background-color: rgb(213, 218, 218);
+    width: 100%;
+    height: 220px;
+    margin: 0;
+}
+
+footer .footer{
+    grid-area: footer;
+    background-color: rgb(213, 218, 218);
+    width: 100%;
+    height: 400px;
+    margin: 0;
+}
+
 body{
     div .grid{
         nav .encabezado{
