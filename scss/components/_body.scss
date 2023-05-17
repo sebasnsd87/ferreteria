@@ -1,0 +1,48 @@
+.grid{
+    width: 100%;
+    margin: 0 auto;
+    /*HABILITO GRILLA*/
+    display: grid;
+    /*DECLARO FILAS Y COLUMNAS*/
+    grid-template-rows: 80px 550px 210px 90px;
+    grid-template-columns: repeat(3,1fr);
+
+    /*DECLARO AEREAS*/
+    grid-template-areas: 
+    "nav nav nav"
+    "header header aside"
+    "main main main"
+    "footer footer footer"
+    ;
+
+}
+
+.grid{
+    width: 100%;
+    height: 300px;
+}
+
+body{
+    div .grid{
+        nav .encabezado{
+            list-style:none;
+            font-family: 'Montserrat', sans-serif;
+            width: 600;
+            font-style: semibold;
+            padding: 10px;
+            background-color: rgb(213, 218, 218);
+            text-align: center;
+            grid-area: nav;
+                ul .encabezado__lista{
+                    li{
+                        display: inline;
+                        margin: 20px 10px 20px 10px;
+                        a{
+                            text-decoration:none;
+                            color: black;
+                        }
+                    }
+                }
+        }
+    }
+}

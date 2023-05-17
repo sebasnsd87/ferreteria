@@ -122,8 +122,8 @@
 }
 
 .frente img{
-    width: 100%;
-    height: 340px;
+    width: 90%;
+    height: 320px;
 }
 
 .frente__productos{
@@ -140,11 +140,32 @@
     padding: 10px
 }
 
+.ferre h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+.ferre p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
 .aside{
     grid-area: aside;
     background-color: rgb(213, 218, 218);
     
 }
+
 
 .main{
     grid-area: main;
@@ -437,14 +458,14 @@ footer div h2{
     text-align: center;
 }
 
-.navegacion ul li{
+.navegacion__lista ul li{
     list-style: none;
     display: inline;
     margin: 20px 10px 20px 10px;
     padding: 10px;
 }
 
-.navegacion ul li a{
+.navegacion__lista ul li a{
     color: black;
     padding: 10px;
     text-decoration: none;
