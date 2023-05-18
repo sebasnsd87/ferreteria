@@ -1,5 +1,5 @@
-header .hero{
-    div .frente{
+.hero{
+    .frente{
         text-align: center;
         width: 100%;
         height: 350px;
@@ -8,8 +8,8 @@ header .hero{
             height: 330px;
         }
     }
-    section .ferre{
-        div .ferre__titulo{
+    .ferre{
+        .ferre__titulo{
             h2{
                 font-family: 'Montserrat', sans-serif;
                 font-size: 25px;
@@ -42,8 +42,8 @@ header .hero{
     }
 }
 
-header .hero{
-    nav .encabezado{
+.hero{
+    .encabezado{
         list-style:none;
         font-family: 'Montserrat', sans-serif;
         width: 600;
@@ -69,7 +69,7 @@ header .hero{
                 }
             }
         }
-        ul .encabezado__lista{
+        .encabezado__lista{
             li{
                 display: inline;
                 margin: 20px 10px 20px 10px;
@@ -79,7 +79,7 @@ header .hero{
                 }
             }
         }
-        div .frente__productos{
+        .frente__productos{
             img{
                 text-align: center;
             }

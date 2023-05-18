@@ -166,6 +166,11 @@
     
 }
 
+.aside img{
+    width: 100%;
+    height: 300px;
+}
+
 
 .main{
     grid-area: main;

@@ -16,73 +16,40 @@
   /*DECLARO AEREAS*/
   grid-template-areas: "nav nav nav" "header header aside" "main main main" "footer footer footer"; }
 
+.main {
+  grid-area: main;
+  background-color: #d5dada;
+  width: 100%;
+  height: 220px;
+  margin: 0; }
+
+.footer {
+  grid-area: footer;
+  background-color: #d5dada;
+  width: 100%;
+  height: 400px;
+  margin: 0; }
+
 .grid {
   width: 100%;
   height: 300px; }
+  .grid .grid .encabezado {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 600;
+    font-style: semibold;
+    padding: 10px;
+    background-color: #d5dada;
+    text-align: center;
+    grid-area: nav; }
+    .grid .grid .encabezado .encabezado__lista li {
+      display: inline;
+      margin: 20px 10px 20px 10px; }
+      .grid .grid .encabezado .encabezado__lista li a {
+        text-decoration: none;
+        color: black; }
 
-body div .grid nav .encabezado {
-  list-style: none;
-  font-family: 'Montserrat', sans-serif;
-  width: 600;
-  font-style: semibold;
-  padding: 10px;
-  background-color: #d5dada;
-  text-align: center;
-  grid-area: nav; }
-  body div .grid nav .encabezado ul .encabezado__lista li {
-    display: inline;
-    margin: 20px 10px 20px 10px; }
-    body div .grid nav .encabezado ul .encabezado__lista li a {
-      text-decoration: none;
-      color: black; }
-
-header .hero div .frente {
-  text-align: center;
-  width: 100%;
-  height: 350px; }
-  header .hero div .frente img {
-    width: 90%;
-    height: 330px; }
-
-header .hero section .ferre div .ferre__titulo h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  font-style: italic;
-  text-decoration: none;
-  text-align: center;
-  color: black;
-  margin: 0;
-  padding: 5px; }
-
-header .hero section .ferre div .ferre__titulo h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-style: italic;
-  text-decoration: none;
-  text-align: center;
-  color: black;
-  padding: 5px; }
-
-header .hero section .ferre div .ferre__titulo p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-style: italic;
-  text-decoration: none;
-  text-align: center;
-  color: black;
-  padding: 5px; }
-
-header .hero nav .encabezado {
-  list-style: none;
-  font-family: 'Montserrat', sans-serif;
-  width: 600;
-  font-style: semibold;
-  padding: 10px;
-  background-color: #d5dada;
-  text-align: center;
-  grid-area: nav; }
-
-header .hero h1 {
+.encabezado h1 {
   animation-name: titulo;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
@@ -96,65 +63,144 @@ header .hero h1 {
     margin-right: 0;
     width: 100%; } }
 
-header .hero ul .encabezado__lista li {
+.encabezado .encabezado__lista li {
   display: inline;
   margin: 20px 10px 20px 10px; }
-  header .hero ul .encabezado__lista li a {
+  .encabezado .encabezado__lista li a {
     text-decoration: none;
     color: black; }
 
-header .hero div .frente__productos img {
+.navbar {
+  text-align: center;
+  padding: 20px;
+  background-color: #d5dada; }
+  .navbar div .form-control {
+    border: 2px solid black;
+    border-radius: 5px; }
+    .navbar div .form-control .btn {
+      border: 2px solid black;
+      border-radius: 5px; }
+
+.hero .frente {
+  text-align: center;
+  width: 100%;
+  height: 350px; }
+  .hero .frente img {
+    width: 90%;
+    height: 330px; }
+
+.hero .ferre .ferre__titulo h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 5px; }
+
+.hero .ferre .ferre__titulo h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding: 5px; }
+
+.hero .ferre .ferre__titulo p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding: 5px; }
+
+.hero .encabezado {
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  width: 600;
+  font-style: semibold;
+  padding: 10px;
+  background-color: #d5dada;
+  text-align: center;
+  grid-area: nav; }
+
+.hero h1 {
+  animation-name: titulo;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-direction: initial; }
+
+@keyframes titulo {
+  from {
+    margin-right: 100%;
+    width: 300%; }
+  to {
+    margin-right: 0;
+    width: 100%; } }
+
+.hero .encabezado__lista li {
+  display: inline;
+  margin: 20px 10px 20px 10px; }
+  .hero .encabezado__lista li a {
+    text-decoration: none;
+    color: black; }
+
+.hero .frente__productos img {
   text-align: center; }
 
 aside .aside {
   grid-area: aside;
   background-color: #d5dada; }
+  aside .aside img {
+    width: 100%;
+    height: 300px; }
 
-.main {
-  grid-area: main;
-  background-color: #d5dada;
-  width: 100%;
-  height: 220px;
-  margin: 0; }
-
-main .main section .carro {
+.main .carro {
   width: 100%;
   height: 200px; }
-  main .main section .carro div .carousel slide div div .carosuel-inner {
+  .main .carro .carousel .carosuel-inner {
     width: 100%;
     height: 200px;
     border: 2px black solid;
     border-radius: 5px; }
-    main .main section .carro div .carousel slide div div .carosuel-inner img {
+    .main .carro .carousel .carosuel-inner img {
       width: 500px;
       height: 190px;
       justify-items: center; }
-  main .main section .carro div .carousel slide div div .carosuel-item {
+  .main .carro .carousel .carosuel-item {
     width: 100%;
     height: 200px;
     border: 2px black solid;
     border-radius: 5px; }
-    main .main section .carro div .carousel slide div div .carosuel-item img {
+    .main .carro .carousel .carosuel-item img {
       width: 490px;
       height: 180px;
       justify-items: center; }
-  main .main section .carro div .carousel slide div div .carosuel-item {
+  .main .carro .carousel .carosuel-item {
     width: 100%;
     height: 200px;
     border: 2px black solid;
     border-radius: 5px; }
-    main .main section .carro div .carousel slide div div .carosuel-item img {
+    .main .carro .carousel .carosuel-item img {
       width: 500px;
       height: 190px;
       justify-items: center; }
 
-main .nosotros section h3 {
+.nosotros section h3 {
   background-color: #d5dada;
   font-family: 'Montserrat', sans-serif;
   font-style: semibold;
   text-align: center; }
 
-main .producto-main div .catalogo {
+.producto-main .tituloMain h3 {
+  width: 100%;
+  text-align: center;
+  background-color: #d5dada; }
+
+.producto-main .catalogo {
   width: 300px;
   height: 255px;
   margin: 20px;
@@ -162,9 +208,9 @@ main .producto-main div .catalogo {
   -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
-  main .producto-main div .catalogo:hover {
+  .producto-main .catalogo:hover {
     transform: scale(1.1); }
-  main .producto-main div .catalogo div .calalogo__contenedor-1 h4 {
+  .producto-main .catalogo .calalogo__contenedor-1 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -172,12 +218,12 @@ main .producto-main div .catalogo {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .producto-main div .catalogo div .calalogo__contenedor-1 img {
+  .producto-main .catalogo .calalogo__contenedor-1 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .producto-main div .catalogo div .calalogo__contenedor-1 a {
+  .producto-main .catalogo .calalogo__contenedor-1 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -186,7 +232,7 @@ main .producto-main div .catalogo {
     text-decoration: none;
     display: flex;
     justify-content: center; }
-  main .producto-main div .catalogo div .calalogo__contenedor-2 h4 {
+  .producto-main .catalogo .calalogo__contenedor-2 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -194,12 +240,12 @@ main .producto-main div .catalogo {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .producto-main div .catalogo div .calalogo__contenedor-2 img {
+  .producto-main .catalogo .calalogo__contenedor-2 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .producto-main div .catalogo div .calalogo__contenedor-2 a {
+  .producto-main .catalogo .calalogo__contenedor-2 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -208,7 +254,7 @@ main .producto-main div .catalogo {
     text-decoration: none;
     display: flex;
     justify-content: center; }
-  main .producto-main div .catalogo div .calalogo__contenedor-3 h4 {
+  .producto-main .catalogo .calalogo__contenedor-3 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -216,12 +262,12 @@ main .producto-main div .catalogo {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .producto-main div .catalogo div .calalogo__contenedor-3 img {
+  .producto-main .catalogo .calalogo__contenedor-3 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .producto-main div .catalogo div .calalogo__contenedor-3 a {
+  .producto-main .catalogo .calalogo__contenedor-3 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -230,7 +276,7 @@ main .producto-main div .catalogo {
     text-decoration: none;
     display: flex;
     justify-content: center; }
-  main .producto-main div .catalogo div .calalogo__contenedor-4 h4 {
+  .producto-main .catalogo .calalogo__contenedor-4 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -238,12 +284,12 @@ main .producto-main div .catalogo {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .producto-main div .catalogo div .calalogo__contenedor-4 img {
+  .producto-main .catalogo .calalogo__contenedor-4 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .producto-main div .catalogo div .calalogo__contenedor-4 a {
+  .producto-main .catalogo .calalogo__contenedor-4 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -252,7 +298,7 @@ main .producto-main div .catalogo {
     text-decoration: none;
     display: flex;
     justify-content: center; }
-  main .producto-main div .catalogo div .calalogo__contenedor-5 h4 {
+  .producto-main .catalogo .calalogo__contenedor-5 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -260,12 +306,12 @@ main .producto-main div .catalogo {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .producto-main div .catalogo div .calalogo__contenedor-5 img {
+  .producto-main .catalogo .calalogo__contenedor-5 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .producto-main div .catalogo div .calalogo__contenedor-5 a {
+  .producto-main .catalogo .calalogo__contenedor-5 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -274,7 +320,7 @@ main .producto-main div .catalogo {
     text-decoration: none;
     display: flex;
     justify-content: center; }
-  main .producto-main div .catalogo div .calalogo__contenedor-6 h4 {
+  .producto-main .catalogo .calalogo__contenedor-6 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -282,12 +328,12 @@ main .producto-main div .catalogo {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .producto-main div .catalogo div .calalogo__contenedor-6 img {
+  .producto-main .catalogo .calalogo__contenedor-6 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .producto-main div .catalogo div .calalogo__contenedor-6 a {
+  .producto-main .catalogo .calalogo__contenedor-6 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -297,49 +343,87 @@ main .producto-main div .catalogo {
     display: flex;
     justify-content: center; }
 
-footer .footer {
-  grid-area: footer;
+.servicios {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 5px;
   background-color: #d5dada;
-  width: 100%;
-  height: 400px;
-  margin: 0; }
-  footer .footer div .piedepagina {
-    display: flex;
-    justify-content: space-around;
-    height: 100px; }
-    footer .footer div .piedepagina a {
-      margin: 0;
-      width: 100%;
-      padding: 10px; }
-      footer .footer div .piedepagina a:hover {
-        transform: scale(1.1); }
-  footer .footer div h2 {
+  -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+  .servicios:hover {
+    transform: scale(1.1); }
+  .servicios h2 {
     font-family: 'Montserrat', sans-serif;
-    width: 600;
-    text-decoration: none;
+    font-style: italic;
     text-align: center;
-    color: black;
-    padding: 20px; }
-  footer .footer div img {
-    width: 90%;
-    height: 100vw;
+    background-color: #d5dada; }
+  .servicios .contenedor {
+    width: 100%;
     display: flex;
-    align-items: center; }
-  footer .footer div .navegacion {
-    font-family: 'Montserrat', sans-serif;
-    width: 600;
-    padding: 20px;
-    text-align: center; }
-    footer .footer div .navegacion ul .navegacion__lista li {
-      list-style: none;
-      display: inline;
-      margin: 20px 10px 20px 10px;
-      padding: 10px; }
-      footer .footer div .navegacion ul .navegacion__lista li a {
-        color: black;
-        padding: 10px;
-        text-decoration: none;
-        text-align: center; }
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #d5dada; }
+    .servicios .contenedor .servicios__contenedor {
+      width: 100%;
+      background-color: #d5dada; }
+      .servicios .contenedor .servicios__contenedor img {
+        width: 100%;
+        height: 150px; }
+
+.contacto-main h2 {
+  text-align: center;
+  background-color: #d5dada; }
+
+.contacto-main .mensaje div {
+  color: black;
+  display: flex;
+  justify-content: center;
+  background-color: #d5dada; }
+  .contacto-main .mensaje div label {
+    font-family: 'Montserrat', sans-serif; }
+
+.piedepagina {
+  display: flex;
+  justify-content: space-around;
+  height: 100px; }
+  .piedepagina a {
+    margin: 0;
+    width: 100%;
+    padding: 10px; }
+    .piedepagina a:hover {
+      transform: scale(1.1); }
+
+div h2 {
+  font-family: "Montserrat", sans-serif;
+  width: 600;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding: 20px; }
+
+div img {
+  width: 90%;
+  height: 100vw;
+  display: flex;
+  align-items: center; }
+
+.navegacion {
+  font-family: "Montserrat", sans-serif;
+  width: 600;
+  padding: 20px;
+  text-align: center; }
+  .navegacion .navegacion__lista li {
+    list-style: none;
+    display: inline;
+    margin: 20px 10px 20px 10px;
+    padding: 10px; }
+    .navegacion .navegacion__lista li a {
+      color: black;
+      padding: 10px;
+      text-decoration: none;
+      text-align: center; }
 
 @media screen and (max-width: 990px) {
   .grid {
