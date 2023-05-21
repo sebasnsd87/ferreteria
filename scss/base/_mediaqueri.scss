@@ -14,12 +14,41 @@
         ;
     }
 
-    .frente{
-        width: 100%;
-        height: 340px;
-        .frente img{
+    .hero{
+        .frente{
             width: 100%;
-            height: 370px;
+            height: 300px;
+            .frente img{
+                width: 100%;
+                height: 300px;
+            }
+            .ferre h2{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 25px;
+                font-style: italic;
+                text-decoration: none;
+                text-align: center;
+                color: black;
+                padding: 5px;
+                .ferre h3{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 25px;
+                    font-style: italic;
+                    text-decoration: none;
+                    text-align: center;
+                    color: black;
+                    padding: 5px;
+                }
+                .ferre p{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    font-style: italic;
+                    text-decoration: none;
+                    text-align: center;
+                    color: black;
+                    padding: 5px;
+                }
+            }
         }
     }
 
@@ -28,33 +57,72 @@
         height: 250px;
     }
 
-    .ferre h2{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 25px;
-        font-style: italic;
-        text-decoration: none;
-        text-align: center;
-        color: black;
-        padding: 10px;
-        .ferre h3{
-            font-family: 'Montserrat', sans-serif;
-            font-size: 25px;
-            font-style: italic;
-            text-decoration: none;
-            text-align: center;
-            color: black;
-            padding: 10px;
-        }
     
-        .ferre p{
+
+    .encabezado__lista{
+        list-style: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-style: italic;
+        margin: 1px;
+        padding: 1px;
+        text-align: center;
+        background-color: rgb(213, 218, 218);
+    }
+    
+    .footer{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(213, 218, 218);
+        .tarejtas img{
+            width: 100px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+        }
+        .navegacion{
+            list-style-position: inside;
             font-family: 'Montserrat', sans-serif;
             font-size: 14px;
             font-style: italic;
+            display:inline;
+            margin: 5px;
+            padding: 5px;
+            background-color: rgb(213, 218, 218);
+            .navegacion__lista{
+                li{
+                    list-style: none;
+                    display: inline;
+                    margin: 10px 10px 10px 10px;
+                    padding: 10px;
+                    a{
+                        color: black;
+                        padding: 10px;
+                        text-decoration: none;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .piedepagina__titulo{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-style: italic;
+            width: 100;
             text-decoration: none;
             text-align: center;
             color: black;
             padding: 10px;
+            
         }
+    }     
+}
+
+@media screen and (max-width:850px){
+
+    .frente__productos{
+        width: 100%;
+        height: 200px;
     }
 
     .encabezado__lista{
@@ -68,45 +136,79 @@
         background-color: rgb(213, 218, 218);
     }
 
-    .tarejtas img{
-        width: 100px;
-        height: 80px;
-        display: flex;
-        align-items: center;
-    }
-
-
-    .navegacion{
-        list-style-position: inside;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        font-style: italic;
-        display:inline;
-        margin: 5px;
-        padding: 5px;
-        background-color: rgb(213, 218, 218);
-    }
-    
-    footer div h2{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        font-style: italic;
-        width: 100;
-        text-decoration: none;
-        text-align: center;
-        color: black;
-        padding: 10px;
-        .footer{
-            width: 100%;
-            height: 300px;
-            background-color: rgb(213, 218, 218);
+    .hero{
+        .ferre h2{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-style: italic;
+            width: 100;
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            padding: 10px;
+            .ferre h3{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+                font-style: italic;
+                width: 100;
+                text-decoration: none;
+                text-align: center;
+                color: black;
+                padding: 10px;
+            }
         }
-        
     }
+
+    .footer{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(213, 218, 218);
+        .tarejtas img{
+            width: 100px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+        }
+        .navegacion{
+            list-style-position: inside;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-style: italic;
+            display:inline;
+            margin: 5px;
+            padding: 5px;
+            background-color: rgb(213, 218, 218);
+            .navegacion__lista{
+                li{
+                    list-style: none;
+                    display: inline;
+                    margin: 5px 5px 5px 5px;
+                    padding: 5px;
+                    a{
+                        color: black;
+                        padding: 5px;
+                        text-decoration: none;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .piedepagina__titulo{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-style: italic;
+            width: 100;
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            padding: 5px;
+            
+        }
+    }     
 }
 
-@media screen and (max-width:850px){
-
+    
+@media screen and (max-width:690px){
     .frente__productos{
         width: 100%;
         height: 200px;
@@ -144,50 +246,200 @@
         }
     }
 
-    .tarejtas img{
-        width: 100%;   
-    }
-
-    .piedepagina{
-        height: 90px;
-        .piedepagina img{
-            height: 60px;
-        }
-    }
-
-    .navegacion{
-        list-style-position: inside;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        font-style: italic;
-        display:inline;
-        margin: 5px;
-        padding: 5px;
-        background-color: rgb(213, 218, 218);
+    .catalogo{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgb(213, 218, 218) ;
+        
     }
     
-    footer div h2{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        font-style: italic;
-        width: 100;
-        text-decoration: none;
-        text-align: center;
-        color: black;
-        padding: 10px;
-        .footer{
-            width: 100%;
-            background-color: rgb(213, 218, 218);
+    .catalogo div{
+        width: 250px;
+        height: 200px;
+        margin: 20px;
+        background-color: rgb(213, 218, 218);
+        -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+        box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+        .catalogo div h4{
+            display: flex;
+            justify-content: center;
+            .catalogo img{
+                width: 100%;
+                height: 140px;
+                display: flex;
+                align-items: first baseline;
+            }
+            .catalogo div:hover{
+                transform: scale(1.1);
+            }
         }
     }
+
+    
+
+    .catalogo__contenedor-1 a{
+        width: 100%;
+        height: 30px;
+        background-color: rgb(206, 138, 55);
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .catalogo__contenedor-1 h4{
+        width: 100%;
+        height: 20px;
+        font-family: 'Montserrat', sans-serif;
+        background-color: rgb(206, 138, 55);
+        display: flex;
+        align-items:flex-start;
+    }
+    
+    .catalogo__contenedor-2 a{
+        width: 100%;
+        height: 30px;
+        background-color: rgb(206, 138, 55);
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .catalogo__contenedor-2 h4{
+        font-family: 'Montserrat', sans-serif;
+        background-color: rgb(206, 138, 55);
+    }
+    
+    
+    .catalogo__contenedor-3 a{
+        width: 100%;
+        height: 30px;
+        background-color: rgb(206, 138, 55);
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .catalogo__contenedor-3 h4{
+        font-family: 'Montserrat', sans-serif;
+        background-color: rgb(206, 138, 55);
+    }
+    
+    
+    
+    .catalogo__contenedor-4 a{
+        width: 100%;
+        height: 30px;
+        background-color: rgb(206, 138, 55);
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .catalogo__contenedor-4 h4{
+        font-family: 'Montserrat', sans-serif;
+        background-color: rgb(206, 138, 55);
+    }
+    
+    
+    .catalogo__contenedor-5 a{
+        width: 100%;
+        height: 30px;
+        background-color: rgb(206, 138, 55);
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .catalogo__contenedor-5 h4{
+        font-family: 'Montserrat', sans-serif;
+        background-color: rgb(206, 138, 55);
+    }
+    
+    
+    .catalogo__contenedor-6 a{
+        width: 100%;
+        height: 30px;
+        background-color: rgb(206, 138, 55);
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .catalogo__contenedor-6 h4{
+        font-family: 'Montserrat', sans-serif;
+        background-color: rgb(206, 138, 55);
+    }
+
+    .footer{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(213, 218, 218);
+        .tarejtas img{
+            width: 100px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+        }
+        .navegacion{
+            list-style-position: inside;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-style: italic;
+            display:inline;
+            margin: 5px;
+            padding: 3px;
+            background-color: rgb(213, 218, 218);
+            .navegacion__lista{
+                li{
+                    list-style: none;
+                    display: inline;
+                    margin: 5px 5px 5px 5px;
+                    padding: 3px;
+                    a{
+                        color: black;
+                        padding: 3px;
+                        text-decoration: none;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .piedepagina__titulo{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-style: italic;
+            width: 100;
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            padding: 5px;
+            
+        }
+    }     
 }
+
 
 @media screen and (max-width:550px){
     .grid{
         width: 100%;
         margin: 0;
         display: grid;
-        grid-template-rows: 60px 550px 270px 220px 300px;
+        grid-template-rows: 60px 600px 270px 200px 300px;
         grid-template-columns: repeat(2,1fr);
         grid-template-areas: 
         "nav nav"
@@ -200,17 +452,17 @@
 
     .frente{
         width: 100%;
-        height: 340px;
+        height: 100px;
         .frente img{
             width: 100%;
-            height: 350px;
+            height: 270px;
             padding: 5px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             .frente__productos{
                 width: 100%;
-                height: 200px;
+                height: 170px;
             }
         }
     }
@@ -221,14 +473,14 @@
         list-style:none;
         font-family: 'Montserrat', sans-serif;
         font-style: italic;
+        font-size: 18px;
         padding: 5px;
-        width: 100%;
-        height: 200px;
         background-color: rgb(213, 218, 218);
         text-align: center;
         .encabezado__lista li{
             display: inline;
             margin: 10px 10px 10px 10px;
+            font-size: 14px;
             .encabezado__lista a{
                 text-decoration:none;
                 color: black;
@@ -238,8 +490,82 @@
             }
         }
     }
+    .hero{
+        .ferre__titulo{
+            .ferre__titulo h2{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                font-style: italic;
+                width: 100;
+                text-decoration: none;
+                text-align: center;
+                color: black;
+                padding: 10px;
+                .ferre__titulo h3{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    font-style: italic;
+                    width: 100;
+                    text-decoration: none;
+                    text-align: center;
+                    color: black;
+                    padding: 10px;
+                    .ferre__titulo p{
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 14px;
+                        font-style: italic;
+                        width: 100;
+                        text-decoration: none;
+                        text-align: center;
+                        color: black;
+                        padding: 10px;
+                    }
+                } 
+            }
+        }
+    }
     
-    .ferre h2{
+.aside{
+    img{
+        width: 100%;
+        height: 250px;
+    }
+}
+.footer{
+    width: 100%;
+    height: 430px;
+    background-color: rgb(213, 218, 218);
+    .tarejtas img{
+        width: 100px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+    .navegacion{
+        list-style-position: inside;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-style: italic;
+        display:inline;
+        margin: 3px;
+        padding: 3px;
+        background-color: rgb(213, 218, 218);
+        .navegacion__lista{
+            li{
+                list-style: none;
+                display: inline;
+                margin: 3px 3px 3px 3px;
+                padding: 3px;
+                a{
+                    color: black;
+                    padding: 3px;
+                    text-decoration: none;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .piedepagina__titulo{
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
         font-style: italic;
@@ -247,52 +573,16 @@
         text-decoration: none;
         text-align: center;
         color: black;
-        padding: 10px;
-        .ferre h3{
-            font-family: 'Montserrat', sans-serif;
-            font-size: 14px;
-            font-style: italic;
-            width: 100;
-            text-decoration: none;
-            text-align: center;
-            color: black;
-            padding: 10px;
+        padding: 5px;
+        
         }
-    }
-
-    .footer{
-        width: 100%;
-        height: 250;
-        background-color: rgb(213, 218, 218);
-        footer div h2{
-            font-family: 'Montserrat', sans-serif;
-            font-size: 14px;
-            font-style: italic;
-            width: 100;
-            text-decoration: none;
-            text-align: center;
-            color: black;
-            padding: 10px;
-            .navegacion{
-                list-style-position: inside;
-                font-family: 'Montserrat', sans-serif;
-                font-size: 14px;
-                font-style: italic;
-                display:inline;
-                margin: 5px;
-                padding: 5px;
-                background-color: rgb(213, 218, 218);
-                .tarejtas img{
-                    width: 100%;
-                }
-            }
-        }
-    }
+    }     
+}
 
     .aside{
         width: 100%;
     }
-}
+
 @media screen and (max-width:380px){
     .grid{
         width: 100%;

@@ -120,12 +120,13 @@
 .footer{
     .piedepagina{
         display: flex;
-        justify-content: space-around;
+        align-items: center;
         height: 100px;
                 a{
                     img{
                         margin: 0;
-                        width: 100%;
+                        width: 80px;
+                        height: 80px;
                         padding: 10px;
                         &:hover{
                             transform: scale(1.1);
@@ -133,7 +134,7 @@
                     }
                 }
     }
-    div{
+    .piedepagina__titulo{
         h2{
             font-family: "Montserrat", sans-serif;
             width: 600;
@@ -143,7 +144,7 @@
             padding: 20px;
         }
     }
-    div{
+    .tarjetas{
         img{
             width: 90%;
             height: 100px;
@@ -172,51 +173,3 @@
             }
     }
 }
-
-    
-
-
-/*.encabezado{
-    h1{
-        animation-name: titulo;
-        animation-duration: 2s;
-        animation-timing-function: ease-in-out;
-        animation-direction: initial;
-        @keyframes titulo{
-            from{
-                margin-right: 100%;
-                width: 300%;
-            }
-            to{
-                margin-right: 0;
-                width: 100%;
-            }
-        }
-    }
-    .encabezado__lista{
-        li{
-            display: inline;
-            margin: 20px 10px 20px 10px;
-            a{
-                text-decoration:none;
-                color: black;
-            }
-        }
-    }
-}
-
-.navbar{
-    text-align: center;
-    padding: 20px;
-    background-color: rgb(213, 218, 218);
-    div{
-        .form-control{
-            border: 2px solid black;
-            border-radius: 5px;
-            .btn{
-                border: 2px solid black;
-                border-radius: 5px;
-            }
-        }
-    }
-}*/

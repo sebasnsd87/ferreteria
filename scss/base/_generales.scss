@@ -27,3 +27,14 @@
 
 }
 
+@keyframes titulo{
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+    to{
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
