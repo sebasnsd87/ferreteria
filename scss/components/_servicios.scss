@@ -68,60 +68,48 @@ header{
     }
 }
 
-.footer{
-    .piedepagina{
-        display: flex;
-        align-items: center;
-        height: 100px;
+.footerServicios{
+    .piedepaginaServicios{
         background-color: rgb(213, 218, 218);
-            }
-                a{
-                    img{
-                        margin: 0;
-                        width: 80px;
-                        height: 80px;
-                        padding: 10px;
-                        text-align: center;
-                    }
-                }
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
     }
     .tarjetas-credito{
         h2{
-            font-family: "Montserrat", sans-serif;
-            width: 600;
-            text-decoration: none;
-            text-align: center;
-            color: black;
-            padding: 20px;
             background-color: rgb(213, 218, 218);
+            font-family: 'Montserrat', sans-serif;
+            font-style: semibold;
+            text-align: center;
         }
         img{
             width: 100%;
-            height: 200px;
+            height: 150px;
             background-color: rgb(213, 218, 218);
-            display: flex;
-            align-items: center;
         }
     }
-    .navegacion{
+    .navegacionServicios{
         font-family: "Montserrat", sans-serif;
-        width: 600;
-        padding: 20px;
+        width: 100;
+        padding: 14px;
         background-color: rgb(213, 218, 218);
         text-align: center;
-            .navegacion__lista{
-                li{
-                    list-style: none;
-                    display: inline;
-                    margin: 20px 10px 20px 10px;
-                    padding: 10px;
-                    background-color: rgb(213, 218, 218);
-                    a{
-                        color: black;
-                        padding: 10px;
-                        text-decoration: none;
-                        text-align: center;
-                    }
+        .navegacion__lista{
+            li{
+                list-style: none;
+                display: inline;
+                margin: 20px 10px 20px 10px;
+                padding: 2px;
+                background-color: rgb(213, 218, 218);
+                a{
+                    color: black;
+                    padding: 2px;
+                    text-decoration: none;
+                    text-align: center;
                 }
             }
+        }
     }
+}

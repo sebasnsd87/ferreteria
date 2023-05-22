@@ -120,42 +120,39 @@
   justify-items: center; }
 
 .footer .piedepagina {
+  background-color: #d5dada;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
   display: flex;
-  align-items: center;
-  height: 100px; }
-  .footer .piedepagina a img {
-    margin: 0;
-    width: 80px;
-    height: 80px;
-    padding: 10px; }
+  justify-content: space-around; }
 
 .footer .piedepagina__titulo h2 {
-  font-family: "Montserrat", sans-serif;
-  width: 600;
-  text-decoration: none;
-  text-align: center;
-  color: black;
-  padding: 20px; }
+  background-color: #d5dada;
+  font-family: 'Montserrat', sans-serif;
+  font-style: semibold;
+  text-align: center; }
 
 .footer .tarjetas img {
   width: 100%;
   height: 150px;
-  display: flex;
-  align-items: center; }
+  background-color: #d5dada; }
 
 .footer .navegacion {
   font-family: "Montserrat", sans-serif;
-  width: 600;
-  padding: 20px;
+  width: 100;
+  padding: 14px;
+  background-color: #d5dada;
   text-align: center; }
   .footer .navegacion .navegacion__lista li {
     list-style: none;
     display: inline;
     margin: 20px 10px 20px 10px;
-    padding: 10px; }
+    padding: 2px;
+    background-color: #d5dada; }
     .footer .navegacion .navegacion__lista li a {
       color: black;
-      padding: 10px;
+      padding: 2px;
       text-decoration: none;
       text-align: center; }
 
@@ -404,49 +401,40 @@ main .catalogo__contenedor-6 {
     display: flex;
     justify-content: center; }
 
-footer .piedepagina {
-  display: flex;
-  align-items: center;
-  height: 100px;
-  background-color: #d5dada; }
-  footer .piedepagina a img {
-    margin: 0;
-    width: 80px;
-    height: 80px;
-    padding: 10px; }
-
-footer .tarjetas-credito h2 {
-  font-family: "Montserrat", sans-serif;
-  width: 600;
-  text-decoration: none;
-  text-align: center;
-  color: black;
-  padding: 20px;
-  background-color: #d5dada; }
-
-footer .tarjetas-credito img {
-  width: 100%;
-  height: 200px;
+.footerProductos .piedepaginaProductos {
   background-color: #d5dada;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
   display: flex;
-  align-items: center; }
+  justify-content: space-around; }
 
-footer .navegacion {
+.footerProductos .tarjetas-credito h2 {
+  background-color: #d5dada;
+  font-family: 'Montserrat', sans-serif;
+  font-style: semibold;
+  text-align: center; }
+
+.footerProductos .tarjetas-credito img {
+  width: 100%;
+  height: 150px;
+  background-color: #d5dada; }
+
+.footerProductos .navegacionProductos {
   font-family: "Montserrat", sans-serif;
   width: 100;
-  font-size: 14px;
-  padding: 5px;
+  padding: 14px;
   background-color: #d5dada;
   text-align: center; }
-  footer .navegacion .navegacion__lista li {
+  .footerProductos .navegacionProductos .navegacion__lista li {
     list-style: none;
     display: inline;
-    margin: 5px 5px 5px 5px;
-    padding: 5px;
+    margin: 20px 10px 20px 10px;
+    padding: 2px;
     background-color: #d5dada; }
-    footer .navegacion .navegacion__lista li a {
+    .footerProductos .navegacionProductos .navegacion__lista li a {
       color: black;
-      padding: 10px;
+      padding: 2px;
       text-decoration: none;
       text-align: center; }
 
@@ -581,50 +569,40 @@ header .encabezado {
         width: 100%;
         height: 150px; }
 
-.footer .piedepagina {
-  display: flex;
-  align-items: center;
-  height: 100px;
-  background-color: #d5dada; }
-
-.footer a img {
-  margin: 0;
-  width: 80px;
-  height: 80px;
-  padding: 10px;
-  text-align: center; }
-
-.tarjetas-credito h2 {
-  font-family: "Montserrat", sans-serif;
-  width: 600;
-  text-decoration: none;
-  text-align: center;
-  color: black;
-  padding: 20px;
-  background-color: #d5dada; }
-
-.tarjetas-credito img {
+.footerServicios .piedepaginaServicios {
+  background-color: #d5dada;
   width: 100%;
-  height: 200px;
-  background-color: #d5dada;
+  height: 100px;
+  padding: 10px;
   display: flex;
-  align-items: center; }
+  justify-content: space-around; }
 
-.navegacion {
+.footerServicios .tarjetas-credito h2 {
+  background-color: #d5dada;
+  font-family: 'Montserrat', sans-serif;
+  font-style: semibold;
+  text-align: center; }
+
+.footerServicios .tarjetas-credito img {
+  width: 100%;
+  height: 150px;
+  background-color: #d5dada; }
+
+.footerServicios .navegacionServicios {
   font-family: "Montserrat", sans-serif;
-  width: 600;
-  padding: 20px;
+  width: 100;
+  padding: 14px;
   background-color: #d5dada;
   text-align: center; }
-  .navegacion .navegacion__lista li {
+  .footerServicios .navegacionServicios .navegacion__lista li {
     list-style: none;
     display: inline;
     margin: 20px 10px 20px 10px;
-    padding: 10px;
+    padding: 2px;
     background-color: #d5dada; }
-    .navegacion .navegacion__lista li a {
+    .footerServicios .navegacionServicios .navegacion__lista li a {
       color: black;
-      padding: 10px;
+      padding: 2px;
       text-decoration: none;
       text-align: center; }
 
