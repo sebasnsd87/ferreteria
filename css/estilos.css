@@ -1192,6 +1192,31 @@ header .frente__productos {
 .aside {
   width: 100%; }
 
+@media screen and (max-width: 490px) {
+  header .encabezado {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    padding: 5px;
+    width: 100%;
+    height: 120px;
+    background-color: #d5dada;
+    text-align: center; }
+    header .encabezado h1 {
+      animation-name: titulo;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+      animation-direction: initial; }
+    header .encabezado .encabezado__lista li {
+      display: inline;
+      margin: 10px 10px 10px 10px; }
+      header .encabezado .encabezado__lista li a {
+        text-decoration: none;
+        color: black; }
+    header .encabezado .frente__productos img {
+      width: 100%;
+      height: 200px; } }
+
 @media screen and (max-width: 380px) {
   .grid {
     width: 100%;
