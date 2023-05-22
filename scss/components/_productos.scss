@@ -1,29 +1,35 @@
-.encabezado{
-    list-style:none;
-    font-family: 'Montserrat', sans-serif;
-    width: 600;
-    font-style: semibold;
-    padding: 10px;
-    background-color: rgb(213, 218, 218);
-    text-align: center;
-    grid-area: nav;
-    h1{
-        animation-name: titulo;
-        animation-duration: 2s;
-        animation-timing-function: ease-in-out;
-        animation-direction: initial;
-    }
-    .encabezado__lista{
-        li{
-            display: inline;
-            margin: 20px 10px 20px 10px;
-            a{
-                text-decoration:none;
-                color: black;
+    .encabezado{
+            list-style:none;
+            font-family: 'Montserrat', sans-serif;
+            font-style: italic;
+            padding: 5px;
+            width: 100%;
+            height: 80px;
+            background-color: rgb(213, 218, 218);
+            text-align: center;
+        h1{
+            animation-name: titulo;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-direction: initial;
+        }
+        .encabezado__lista{
+            li{
+                display: inline;
+                margin: 10px 10px 10px 10px;
+                a{
+                    text-decoration:none;
+                    color: black;
+                }
+            }
+        }
+        .frente__productos{
+            img{
+                width: 100%;
+                height: 200px;
             }
         }
     }
-}
 
 .navbar{
     text-align: center;
@@ -37,18 +43,6 @@
         .btn{
             border: 2px solid black;
             border-radius: 5px;
-        }
-    }
-}
-
-
-header{
-    div{
-        img{
-            width: 200px;
-            height: 200px;
-            display: flex;
-            justify-content: center;  
         }
     }
 }
@@ -304,9 +298,6 @@ footer{
                         width: 80px;
                         height: 80px;
                         padding: 10px;
-                        &:hover{
-                            transform: scale(1.1);
-                        }
                     }
                 }
     }

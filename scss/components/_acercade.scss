@@ -1,0 +1,98 @@
+header{
+    .encabezado__nosotros{
+        list-style:none;
+        font-family: 'Montserrat', sans-serif;
+        width: 600;
+        font-style: semibold;
+        padding: 10px;
+        background-color: rgb(213, 218, 218);
+        text-align: center;
+        h1{
+            animation-name: titulo;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-direction: initial;
+        }
+        @keyframes titulo{
+            from{
+                margin-right: 100%;
+                width: 300%;
+            }
+            to{
+                margin-right: 0;
+                width: 100%;
+            }
+        }
+        .encabezado__lista{
+            li{
+                display: inline;
+                margin: 20px 10px 20px 10px;
+                a{
+                    text-decoration:none;
+                    color: black;
+                }
+            }
+        }
+    }
+    .frente__productos{
+        background-color: rgb(213, 218, 218);
+        text-align: center;
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+}
+
+.nosotros{
+    background-color: rgb(213, 218, 218);
+    font-family: 'Montserrat', sans-serif;
+    font-style: semibold;
+    text-align: center;
+}
+
+.footer__acerca{
+    .piedepagina__acerca{
+        background-color: rgb(213, 218, 218);
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .tarjetas-credito{
+        h2{
+            background-color: rgb(213, 218, 218);
+            font-family: 'Montserrat', sans-serif;
+            font-style: semibold;
+            text-align: center;
+        }
+        img{
+            width: 100%;
+            height: 150px;
+            background-color: rgb(213, 218, 218);
+        }
+    }
+    .navegacion__acerca{
+        font-family: "Montserrat", sans-serif;
+        width: 100;
+        padding: 14px;
+        background-color: rgb(213, 218, 218);
+        text-align: center;
+        .navegacion__lista{
+            li{
+                list-style: none;
+                display: inline;
+                margin: 20px 10px 20px 10px;
+                padding: 2px;
+                background-color: rgb(213, 218, 218);
+                a{
+                    color: black;
+                    padding: 2px;
+                    text-decoration: none;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

@@ -128,9 +128,6 @@
                         width: 80px;
                         height: 80px;
                         padding: 10px;
-                        &:hover{
-                            transform: scale(1.1);
-                        }
                     }
                 }
     }
@@ -146,8 +143,8 @@
     }
     .tarjetas{
         img{
-            width: 90%;
-            height: 100px;
+            width: 100%;
+            height: 150px;
             display: flex;
             align-items: center;
         }

@@ -72,10 +72,10 @@
     
     .footer{
         width: 100%;
-        height: 400px;
+        height: 440px;
         background-color: rgb(213, 218, 218);
-        .tarejtas img{
-            width: 100px;
+        .tarjetas img{
+            width: 100%;
             height: 80px;
             display: flex;
             align-items: center;
@@ -103,19 +103,45 @@
                     }
                 }
             }
-        }
-        .piedepagina__titulo{
-            font-family: 'Montserrat', sans-serif;
-            font-size: 14px;
-            font-style: italic;
-            width: 100;
-            text-decoration: none;
-            text-align: center;
-            color: black;
-            padding: 10px;
-            
+            .piedepagina__titulo{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+                font-style: italic;
+                width: 100;
+                text-decoration: none;
+                text-align: center;
+                color: black;
+                padding: 10px;
+                
+            }
         }
     }     
+}
+
+@media screen and (max-width:890px){
+    .navegacion__acerca{
+        font-family: "Montserrat", sans-serif;
+        width: 100;
+        font-size: 14px;
+        padding: 2px;
+        background-color: rgb(213, 218, 218);
+        text-align: center;
+        .navegacion__lista{
+            li{
+                list-style: none;
+                display: inline;
+                margin: 5px 5px 5px 5px;
+                padding: 5px;
+                background-color: rgb(213, 218, 218);
+                a{
+                    color: black;
+                    padding: 5px;
+                    text-decoration: none;
+                    text-align: center;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width:850px){
@@ -161,10 +187,10 @@
 
     .footer{
         width: 100%;
-        height: 400px;
+        height: 440px;
         background-color: rgb(213, 218, 218);
-        .tarejtas img{
-            width: 100px;
+        .tarjetas img{
+            width: 100%;
             height: 80px;
             display: flex;
             align-items: center;
@@ -192,19 +218,60 @@
                     }
                 }
             }
+            .piedepagina__titulo{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+                font-style: italic;
+                width: 100;
+                text-decoration: none;
+                text-align: center;
+                color: black;
+                padding: 5px;
+                
+            }
         }
-        .piedepagina__titulo{
-            font-family: 'Montserrat', sans-serif;
-            font-size: 14px;
-            font-style: italic;
-            width: 100;
-            text-decoration: none;
-            text-align: center;
-            color: black;
-            padding: 5px;
-            
+    }
+    .navegacion__acerca{
+        font-family: "Montserrat", sans-serif;
+        padding: 5px;
+        background-color: rgb(213, 218, 218);
+        text-align: center;
+        .navegacion__lista{
+            li{
+                list-style: none;
+                display: inline;
+                margin: 2x 2px 2px 2px;
+                background-color: rgb(213, 218, 218);
+                a{
+                    color: black;
+                    text-decoration: none;
+                    text-align: center;
+                }
+            }
         }
     }     
+}
+
+@media screen and (max-width:820px){
+    .navegacion__acerca{
+        font-family: "Montserrat", sans-serif;
+        padding: 5px;
+        background-color: rgb(213, 218, 218);
+        text-align: center;
+        .navegacion__lista{
+            li{
+                list-style: none;
+                display: inline;
+                margin: 2x 2px 2px 2px;
+                background-color: rgb(213, 218, 218);
+                a{
+                    color: black;
+                    text-decoration: none;
+                    text-align: center;
+                }
+            }
+        }
+    }
 }
 
     
@@ -252,184 +319,180 @@
         flex-wrap: wrap;
         justify-content: space-between;
         background-color: rgb(213, 218, 218) ;
-        
-    }
-    
-    .catalogo div{
-        width: 250px;
-        height: 200px;
-        margin: 20px;
-        background-color: rgb(213, 218, 218);
-        -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
-        box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
-        .catalogo div h4{
-            display: flex;
-            justify-content: center;
-            .catalogo img{
-                width: 100%;
-                height: 140px;
-                display: flex;
-                align-items: first baseline;
-            }
-            .catalogo div:hover{
-                transform: scale(1.1);
-            }
-        }
-    }
-
-    
-
-    .catalogo__contenedor-1 a{
-        width: 100%;
-        height: 30px;
-        background-color: rgb(206, 138, 55);
-        color: black;
-        font-family: 'Montserrat', sans-serif;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .catalogo__contenedor-1 h4{
-        width: 100%;
-        height: 20px;
-        font-family: 'Montserrat', sans-serif;
-        background-color: rgb(206, 138, 55);
-        display: flex;
-        align-items:flex-start;
-    }
-    
-    .catalogo__contenedor-2 a{
-        width: 100%;
-        height: 30px;
-        background-color: rgb(206, 138, 55);
-        color: black;
-        font-family: 'Montserrat', sans-serif;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .catalogo__contenedor-2 h4{
-        font-family: 'Montserrat', sans-serif;
-        background-color: rgb(206, 138, 55);
-    }
-    
-    
-    .catalogo__contenedor-3 a{
-        width: 100%;
-        height: 30px;
-        background-color: rgb(206, 138, 55);
-        color: black;
-        font-family: 'Montserrat', sans-serif;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .catalogo__contenedor-3 h4{
-        font-family: 'Montserrat', sans-serif;
-        background-color: rgb(206, 138, 55);
-    }
-    
-    
-    
-    .catalogo__contenedor-4 a{
-        width: 100%;
-        height: 30px;
-        background-color: rgb(206, 138, 55);
-        color: black;
-        font-family: 'Montserrat', sans-serif;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .catalogo__contenedor-4 h4{
-        font-family: 'Montserrat', sans-serif;
-        background-color: rgb(206, 138, 55);
-    }
-    
-    
-    .catalogo__contenedor-5 a{
-        width: 100%;
-        height: 30px;
-        background-color: rgb(206, 138, 55);
-        color: black;
-        font-family: 'Montserrat', sans-serif;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .catalogo__contenedor-5 h4{
-        font-family: 'Montserrat', sans-serif;
-        background-color: rgb(206, 138, 55);
-    }
-    
-    
-    .catalogo__contenedor-6 a{
-        width: 100%;
-        height: 30px;
-        background-color: rgb(206, 138, 55);
-        color: black;
-        font-family: 'Montserrat', sans-serif;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .catalogo__contenedor-6 h4{
-        font-family: 'Montserrat', sans-serif;
-        background-color: rgb(206, 138, 55);
-    }
-
-    .footer{
-        width: 100%;
-        height: 400px;
-        background-color: rgb(213, 218, 218);
-        .tarejtas img{
-            width: 100px;
-            height: 80px;
-            display: flex;
-            align-items: center;
-        }
-        .navegacion{
-            list-style-position: inside;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 14px;
-            font-style: italic;
-            display:inline;
-            margin: 5px;
-            padding: 3px;
+        .catalogo div{
+            width: 170px;
+            height: 210px;
+            margin: 10px;
             background-color: rgb(213, 218, 218);
-            .navegacion__lista{
-                li{
-                    list-style: none;
-                    display: inline;
-                    margin: 5px 5px 5px 5px;
-                    padding: 3px;
-                    a{
-                        color: black;
-                        padding: 3px;
-                        text-decoration: none;
-                        text-align: center;
-                    }
+            -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+            box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+            .catalogo div h4{
+                display: flex;
+                justify-content: center;
+                .catalogo img{
+                    width: 100%;
+                    height: 110px;
+                    display: flex;
+                    align-items: first baseline;
+                }
+                .catalogo div:hover{
+                    transform: scale(1.1);
+                }
+            }
+            .catalogo__contenedor-1 a{
+                width: 100%;
+                height: 20px;
+                background-color: rgb(206, 138, 55);
+                color: black;
+                font-family: 'Montserrat', sans-serif;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                .catalogo__contenedor-1 h4{
+                    width: 100%;
+                    height: 10px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    background-color: rgb(206, 138, 55);
+                    display: flex;
+                    align-items:flex-start;
+                }
+            }
+        
+            .catalogo__contenedor-2 a{
+                width: 100%;
+                height: 30px;
+                background-color: rgb(206, 138, 55);
+                color: black;
+                font-family: 'Montserrat', sans-serif;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                .catalogo__contenedor-2 h4{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    background-color: rgb(206, 138, 55);
+                }
+            }
+            
+            .catalogo__contenedor-3 a{
+                width: 100%;
+                height: 30px;
+                background-color: rgb(206, 138, 55);
+                color: black;
+                font-family: 'Montserrat', sans-serif;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                .catalogo__contenedor-3 h4{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    background-color: rgb(206, 138, 55);
+                }
+            }
+            
+            .catalogo__contenedor-4 a{
+                width: 100%;
+                height: 30px;
+                background-color: rgb(206, 138, 55);
+                color: black;
+                font-family: 'Montserrat', sans-serif;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                .catalogo__contenedor-4 h4{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    background-color: rgb(206, 138, 55);
+                }
+            }
+            
+            .catalogo__contenedor-5 a{
+                width: 100%;
+                height: 30px;
+                background-color: rgb(206, 138, 55);
+                color: black;
+                font-family: 'Montserrat', sans-serif;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                .catalogo__contenedor-5 h4{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    background-color: rgb(206, 138, 55);
+                }
+            }
+            
+            .catalogo__contenedor-6 a{
+                width: 100%;
+                height: 30px;
+                background-color: rgb(206, 138, 55);
+                color: black;
+                font-family: 'Montserrat', sans-serif;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                .catalogo__contenedor-6 h4{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    background-color: rgb(206, 138, 55);
                 }
             }
         }
-        .piedepagina__titulo{
-            font-family: 'Montserrat', sans-serif;
-            font-size: 14px;
-            font-style: italic;
-            width: 100;
-            text-decoration: none;
-            text-align: center;
-            color: black;
-            padding: 5px;
-            
-        }
+    }
+    
+    
+    
+    
+
+    .footer{
+        width: 100%;
+        height: 440px;
+        background-color: rgb(213, 218, 218);
+        .tarjetas-credito{
+            h2{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+                font-style: italic;
+                width: 100;
+                text-decoration: none;
+                text-align: center;
+                color: black;
+                padding: 5px;
+            }
+            img{
+                width: 100%;
+                height: 80px;
+                display: flex;
+                align-items: center;
+            }
+            .navegacion{
+                list-style-position: inside;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+                font-style: italic;
+                display:inline;
+                margin: 2px;
+                padding: 2px;
+                background-color: rgb(213, 218, 218);
+                .navegacion__lista{
+                    li{
+                        list-style: none;
+                        display: inline;
+                        margin: 2px 2px 2px 2px;
+                        padding: 2px;
+                        a{
+                            color: black;
+                            padding: 2px;
+                            text-decoration: none;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        } 
+        
     }     
 }
 
@@ -533,10 +596,10 @@
 }
 .footer{
     width: 100%;
-    height: 430px;
+    height: 440px;
     background-color: rgb(213, 218, 218);
-    .tarejtas img{
-        width: 100px;
+    .tarjetas img{
+        width: 100%;
         height: 80px;
         display: flex;
         align-items: center;
