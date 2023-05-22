@@ -40,6 +40,7 @@ header{
         font-family: 'Montserrat', sans-serif;
         font-style: italic;
         text-align: center;
+        padding: 5px;
         background-color: rgb(213, 218, 218);
     }
     .contenedor{
@@ -53,6 +54,8 @@ header{
             height: 200px;
             border: 2px solid black;
             border-radius: 5px;
+            display: flex;
+            align-items: center;
             background-color: rgb(213, 218, 218);
             -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
             -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
