@@ -1,4 +1,84 @@
+/*--PALETA DE COLORES---*/
+/*--MIXIN---*/
 @import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+.catalogo__contenedor-1 h4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+.catalogo__contenedor-1 img {
+  display: flex;
+  align-items: first baseline; }
+
+.catalogo__contenedor-1 a {
+  display: flex;
+  justify-content: center; }
+
+.catalogo__contenedor-2 h4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+.catalogo__contenedor-2 img {
+  display: flex;
+  align-items: first baseline; }
+
+.catalogo__contenedor-2 a {
+  display: flex;
+  justify-content: center; }
+
+.catalogo__contenedor-3 h4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+.catalogo__contenedor-3 img {
+  display: flex;
+  align-items: first baseline; }
+
+.catalogo__contenedor-3 a {
+  display: flex;
+  justify-content: center; }
+
+.catalogo__contenedor-4 h4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+.catalogo__contenedor-4 img {
+  display: flex;
+  align-items: first baseline; }
+
+.catalogo__contenedor-4 a {
+  display: flex;
+  justify-content: center; }
+
+.catalogo__contenedor-5 h4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+.catalogo__contenedor-5 img {
+  display: flex;
+  align-items: first baseline; }
+
+.catalogo__contenedor-5 a {
+  display: flex;
+  justify-content: center; }
+
+.catalogo__contenedor-6 h4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+.catalogo__contenedor-6 img {
+  display: flex;
+  align-items: first baseline; }
+
+.catalogo__contenedor-6 a {
+  display: flex;
+  justify-content: center; }
+
 /*RESET*/
 * {
   margin: 0;
@@ -70,7 +150,7 @@
     width: 90%;
     height: 320px; }
 
-.hero .ferre .ferre__titulo h2 {
+.hero .ferre .ferre__titulo h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   font-style: italic;
@@ -79,7 +159,7 @@
   color: black;
   padding: 10px; }
 
-.hero .ferre .ferre__titulo h3 {
+.hero .ferre .ferre__titulo h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   font-style: italic;
@@ -713,7 +793,7 @@ header .frente__productos {
     .hero .frente .frente img {
       width: 100%;
       height: 300px; }
-    .hero .frente .ferre h2 {
+    .hero .frente .ferre h1 {
       font-family: 'Montserrat', sans-serif;
       font-size: 25px;
       font-style: italic;
@@ -721,7 +801,7 @@ header .frente__productos {
       text-align: center;
       color: black;
       padding: 5px; }
-      .hero .frente .ferre h2 .ferre h3 {
+      .hero .frente .ferre h1 .ferre h2 {
         font-family: 'Montserrat', sans-serif;
         font-size: 25px;
         font-style: italic;
@@ -729,7 +809,7 @@ header .frente__productos {
         text-align: center;
         color: black;
         padding: 5px; }
-      .hero .frente .ferre h2 .ferre p {
+      .hero .frente .ferre h1 .ferre p {
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
         font-style: italic;
@@ -820,7 +900,7 @@ header .frente__productos {
     padding: 1px;
     text-align: center;
     background-color: #d5dada; }
-  .hero .ferre h2 {
+  .hero .ferre h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: italic;
@@ -829,7 +909,7 @@ header .frente__productos {
     text-align: center;
     color: black;
     padding: 10px; }
-    .hero .ferre h2 .ferre h3 {
+    .hero .ferre h1 .ferre h2 {
       font-family: 'Montserrat', sans-serif;
       font-size: 14px;
       font-style: italic;
@@ -919,7 +999,7 @@ header .frente__productos {
     padding: 1px;
     text-align: center;
     background-color: #d5dada; }
-  .ferre h2 {
+  .ferre h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: italic;
@@ -928,7 +1008,7 @@ header .frente__productos {
     text-align: center;
     color: black;
     padding: 10px; }
-    .ferre h2 .ferre h3 {
+    .ferre h1 .ferre h2 {
       font-family: 'Montserrat', sans-serif;
       font-size: 14px;
       font-style: italic;
@@ -1121,7 +1201,7 @@ header .frente__productos {
         color: black; }
         .encabezado .encabezado__lista li .encabezado__lista a .encabezado__lista {
           background-color: #d5dada; }
-  .hero .ferre__titulo .ferre__titulo h2 {
+  .hero .ferre__titulo .ferre__titulo h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-style: italic;
@@ -1130,7 +1210,7 @@ header .frente__productos {
     text-align: center;
     color: black;
     padding: 10px; }
-    .hero .ferre__titulo .ferre__titulo h2 .ferre__titulo h3 {
+    .hero .ferre__titulo .ferre__titulo h1 .ferre__titulo h2 {
       font-family: 'Montserrat', sans-serif;
       font-size: 14px;
       font-style: italic;
@@ -1139,7 +1219,7 @@ header .frente__productos {
       text-align: center;
       color: black;
       padding: 10px; }
-      .hero .ferre__titulo .ferre__titulo h2 .ferre__titulo h3 .ferre__titulo p {
+      .hero .ferre__titulo .ferre__titulo h1 .ferre__titulo h2 .ferre__titulo p {
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
         font-style: italic;
@@ -1279,17 +1359,17 @@ header .frente__productos {
       padding: 1px;
       text-align: center;
       background-color: #d5dada; }
-  .ferre h2 {
+  .ferre h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     font-style: italic;
     text-align: center; }
-    .ferre h2 .ferre h3 {
+    .ferre h1 .ferre h2 {
       font-family: 'Montserrat', sans-serif;
       font-size: 16px;
       font-style: italic;
       text-align: center; }
-      .ferre h2 .ferre h3 .ferre p {
+      .ferre h1 .ferre h2 .ferre p {
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
         font-style: italic; } }

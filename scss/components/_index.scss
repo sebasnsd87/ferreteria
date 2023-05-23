@@ -1,12 +1,12 @@
 .hero{
     grid-area: header;
-    background-color: rgb(213, 218, 218);
+    background-color: $color-principal;
     text-align: center;
 }
 
 .main{
     grid-area: main;
-    background-color: rgb(213, 218, 218);
+    background-color: $color-principal;
     width: 100%;
     height: 220px;
     margin: 0;
@@ -14,7 +14,7 @@
 
 .footer{
     grid-area: footer;
-    background-color: rgb(213, 218, 218);
+    background-color: $color-principal;
     width: 100%;
     height: 400px;
     margin: 0;
@@ -30,7 +30,7 @@
             width: 600;
             font-style: semibold;
             padding: 10px;
-            background-color: rgb(213, 218, 218);
+            background-color: $color-principal;
             text-align: center;
             grid-area: nav;
                 .encabezado__lista{
@@ -39,7 +39,7 @@
                         margin: 20px 10px 20px 10px;
                         a{
                             text-decoration:none;
-                            color: black;
+                            color: $color-secundario;
                         }
                     }
                 }
@@ -64,16 +64,16 @@
                 font-style: italic;
                 text-decoration: none;
                 text-align: center;
-                color: black;
+                color: $color-secundario;
                 padding: 10px
             }
-            h3{
+            h2{
                 font-family: 'Montserrat', sans-serif;
                 font-size: 25px;
                 font-style: italic;
                 text-decoration: none;
                 text-align: center;
-                color: black;
+                color: $color-secundario;
                 padding: 10px;
             }
             p{
@@ -82,7 +82,7 @@
                 font-style: italic;
                 text-decoration: none;
                 text-align: center;
-                color: black;
+                color: $color-secundario;
                 padding: 10px;
             }
         }
@@ -91,7 +91,7 @@
 
 .aside{
     grid-area: aside;
-    background-color: rgb(213, 218, 218);
+    background-color: $color-principal;
     img{
         width: 100%;
         height: 500px;
@@ -105,7 +105,7 @@
 .carousel-inner{
         width: 100%;
         height: 200px;
-        border: 2px black solid;
+        border: 2px $color-secundario solid;
         border-radius: 5px;
         }
 .carousel-item{
@@ -119,7 +119,7 @@
 
 .footer{
     .piedepagina{
-        background-color: rgb(213, 218, 218);
+        background-color: $color-principal;
         width: 100%;
         height: 100px;
         padding: 10px;
@@ -128,7 +128,7 @@
         }
         .piedepagina__titulo{
             h2{
-                background-color: rgb(213, 218, 218);
+                background-color: $color-principal;
                 font-family: 'Montserrat', sans-serif;
                 font-style: semibold;
                 text-align: center;
@@ -138,14 +138,14 @@
             img{
                 width: 100%;
                 height: 150px;
-                background-color: rgb(213, 218, 218);
+                background-color: $color-principal;
             }
         }
         .navegacion{
             font-family: "Montserrat", sans-serif;
             width: 100;
             padding: 14px;
-            background-color: rgb(213, 218, 218);
+            background-color: $color-principal;
             text-align: center;
             .navegacion__lista{
                 li{
@@ -153,9 +153,9 @@
                     display: inline;
                     margin: 20px 10px 20px 10px;
                     padding: 2px;
-                    background-color: rgb(213, 218, 218);
+                    background-color: $color-principal;
                     a{
-                        color: black;
+                        color: $color-secundario;
                         padding: 2px;
                         text-decoration: none;
                         text-align: center;

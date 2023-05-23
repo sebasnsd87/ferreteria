@@ -1,0 +1,94 @@
+/*--PALETA DE COLORES---*/
+$color-principal: rgb(213, 218, 218);
+$color-secundario: black;
+$color-terciario: rgb(206, 138, 55);
+
+/*--MIXIN---*/
+
+@mixin flex ($flex, $justify, $aling){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}
+
+@mixin img ($flex, $aling){
+    display: $flex;
+    align-items: $aling;
+}
+
+@mixin a ($flex, $justify){
+    display: $flex;
+    justify-content: $justify;
+}
+
+.catalogo__contenedor-1 h4{
+    @include flex (flex, center, flex-start)
+}
+
+.catalogo__contenedor-1 img{
+    @include img (flex, first baseline)
+}
+
+.catalogo__contenedor-1 a{
+    @include a (flex, center)
+}
+
+.catalogo__contenedor-2 h4{
+    @include flex (flex, center, flex-start)
+}
+
+.catalogo__contenedor-2 img{
+    @include img (flex, first baseline)
+}
+
+.catalogo__contenedor-2 a{
+    @include a (flex, center)
+}
+
+.catalogo__contenedor-3 h4{
+    @include flex (flex, center, flex-start)
+}
+
+.catalogo__contenedor-3 img{
+    @include img (flex, first baseline)
+}
+
+.catalogo__contenedor-3 a{
+    @include a (flex, center)
+}
+
+.catalogo__contenedor-4 h4{
+    @include flex (flex, center, flex-start)
+}
+
+.catalogo__contenedor-4 img{
+    @include img (flex, first baseline)
+}
+
+.catalogo__contenedor-4 a{
+    @include a (flex, center)
+}
+
+.catalogo__contenedor-5 h4{
+    @include flex (flex, center, flex-start)
+}
+
+.catalogo__contenedor-5 img{
+    @include img (flex, first baseline)
+}
+
+.catalogo__contenedor-5 a{
+    @include a (flex, center)
+}
+
+.catalogo__contenedor-6 h4{
+    @include flex (flex, center, flex-start)
+}
+
+.catalogo__contenedor-6 img{
+    @include img (flex, first baseline)
+}
+
+.catalogo__contenedor-6 a{
+    @include a (flex, center)
+}

@@ -5,7 +5,7 @@
             padding: 5px;
             width: 100%;
             height: 80px;
-            background-color: rgb(213, 218, 218);
+            background-color: $color-principal;
             text-align: center;
         h1{
             animation-name: titulo;
@@ -19,7 +19,7 @@
                 margin: 10px 10px 10px 10px;
                 a{
                     text-decoration:none;
-                    color: black;
+                    color: $color-secundario;
                 }
             }
         }
@@ -34,14 +34,14 @@
 .navbar{
     text-align: center;
     padding: 20px;
-    background-color: rgb(213, 218, 218);
+    background-color: $color-principal;
     .container-fluid{
         .form-control{
-            border: 2px solid black;
+            border: 2px solid $color-secundario;
             border-radius: 5px;
         }
         .btn{
-            border: 2px solid black;
+            border: 2px solid $color-secundario;
             border-radius: 5px;
         }
     }
@@ -52,7 +52,7 @@ main{
         h3{
             width: 100%;
             text-align: center;
-            background-color: rgb(213, 218, 218);
+            background-color: $color-principal;
         }
     }
     .catalogo{
@@ -60,13 +60,13 @@ main{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        background-color: rgb(213, 218, 218) ;
+        background-color: $color-principal;
         }
         .catalogo__contenedor-1{
             width: 300px;
             height: 255px;
             margin: 20px;
-            background-color: rgb(213, 218, 218);
+            background-color: $color-principal;
             -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
             -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
             box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
@@ -77,7 +77,7 @@ main{
                 width: 100%;
                 height: 30px;
                 font-family: 'Montserrat', sans-serif;
-                background-color: rgb(206, 138, 55);
+                background-color: $color-terciario;
                 display: flex;
                 align-items:flex-start;
                 justify-content: center;
@@ -91,8 +91,8 @@ main{
             a{
                 width: 100%;
                 height: 40px;
-                background-color: rgb(206, 138, 55);
-                color: black;
+                background-color: $color-terciario;
+                color: $color-secundario;
                 font-family: 'Montserrat', sans-serif;
                 text-decoration: none;
                 display: flex;
@@ -103,7 +103,7 @@ main{
         width: 300px;
         height: 255px;
         margin: 20px;
-        background-color: rgb(213, 218, 218);
+        background-color: $color-principal;
         -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
         box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
@@ -114,7 +114,7 @@ main{
             width: 100%;
             height: 30px;
             font-family: 'Montserrat', sans-serif;
-            background-color: rgb(206, 138, 55);
+            background-color: $color-terciario;
             display: flex;
             align-items:flex-start;
             justify-content: center;
@@ -128,8 +128,8 @@ main{
         a{
             width: 100%;
             height: 40px;
-            background-color: rgb(206, 138, 55);
-            color: black;
+            background-color: $color-terciario;
+            color: $color-secundario;
             font-family: 'Montserrat', sans-serif;
             text-decoration: none;
             display: flex;
@@ -140,7 +140,7 @@ main{
         width: 300px;
         height: 255px;
         margin: 20px;
-        background-color: rgb(213, 218, 218);
+        background-color: $color-principal;
         -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
         box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
@@ -151,7 +151,7 @@ main{
             width: 100%;
             height: 30px;
             font-family: 'Montserrat', sans-serif;
-            background-color: rgb(206, 138, 55);
+            background-color: $color-terciario;
             display: flex;
             align-items:flex-start;
             justify-content: center;
@@ -165,8 +165,8 @@ main{
         a{
             width: 100%;
             height: 40px;
-            background-color: rgb(206, 138, 55);
-            color: black;
+            background-color: $color-terciario;
+            color: $color-secundario;
             font-family: 'Montserrat', sans-serif;
             text-decoration: none;
             display: flex;
@@ -177,7 +177,7 @@ main{
         width: 300px;
         height: 255px;
         margin: 20px;
-        background-color: rgb(213, 218, 218);
+        background-color: $color-principal;
         -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
         box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
@@ -188,7 +188,7 @@ main{
             width: 100%;
             height: 30px;
             font-family: 'Montserrat', sans-serif;
-            background-color: rgb(206, 138, 55);
+            background-color: $color-terciario;
             display: flex;
             align-items:flex-start;
             justify-content: center;
@@ -202,8 +202,8 @@ main{
         a{
             width: 100%;
             height: 40px;
-            background-color: rgb(206, 138, 55);
-            color: black;
+            background-color: $color-terciario;
+            color: $color-secundario;
             font-family: 'Montserrat', sans-serif;
             text-decoration: none;
             display: flex;
@@ -214,7 +214,7 @@ main{
         width: 300px;
         height: 255px;
         margin: 20px;
-        background-color: rgb(213, 218, 218);
+        background-color: $color-principal;
         -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
         box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
@@ -225,7 +225,7 @@ main{
             width: 100%;
             height: 30px;
             font-family: 'Montserrat', sans-serif;
-            background-color: rgb(206, 138, 55);
+            background-color: $color-terciario;
             display: flex;
             align-items:flex-start;
             justify-content: center;
@@ -239,8 +239,8 @@ main{
         a{
             width: 100%;
             height: 40px;
-            background-color: rgb(206, 138, 55);
-            color: black;
+            background-color: $color-terciario;
+            color: $color-secundario;
             font-family: 'Montserrat', sans-serif;
             text-decoration: none;
             display: flex;
@@ -251,7 +251,7 @@ main{
         width: 300px;
         height: 255px;
         margin: 20px;
-        background-color: rgb(213, 218, 218);
+        background-color: $color-principal;
         -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
         box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
@@ -262,7 +262,7 @@ main{
             width: 100%;
             height: 30px;
             font-family: 'Montserrat', sans-serif;
-            background-color: rgb(206, 138, 55);
+            background-color: $color-terciario;
             display: flex;
             align-items:flex-start;
             justify-content: center;
@@ -276,8 +276,8 @@ main{
         a{
             width: 100%;
             height: 40px;
-            background-color: rgb(206, 138, 55);
-            color: black;
+            background-color: $color-terciario;
+            color: $color-secundario;
             font-family: 'Montserrat', sans-serif;
             text-decoration: none;
             display: flex;
@@ -288,7 +288,7 @@ main{
 
 .footerProductos{
     .piedepaginaProductos{
-        background-color: rgb(213, 218, 218);
+        background-color: $color-principal;
         width: 100%;
         height: 100px;
         padding: 10px;
@@ -297,7 +297,7 @@ main{
     }
     .tarjetas-credito{
         h2{
-            background-color: rgb(213, 218, 218);
+            background-color: $color-principal;
             font-family: 'Montserrat', sans-serif;
             font-style: semibold;
             text-align: center;
@@ -305,14 +305,14 @@ main{
         img{
             width: 100%;
             height: 150px;
-            background-color: rgb(213, 218, 218);
+            background-color: $color-principal;
         }
     }
     .navegacionProductos{
         font-family: "Montserrat", sans-serif;
         width: 100;
         padding: 14px;
-        background-color: rgb(213, 218, 218);
+        background-color: $color-principal;
         text-align: center;
         .navegacion__lista{
             li{
@@ -320,9 +320,9 @@ main{
                 display: inline;
                 margin: 20px 10px 20px 10px;
                 padding: 2px;
-                background-color: rgb(213, 218, 218);
+                background-color: $color-principal;
                 a{
-                    color: black;
+                    color: $color-secundario;
                     padding: 2px;
                     text-decoration: none;
                     text-align: center;

@@ -5,7 +5,7 @@ header{
         width: 600;
         font-style: semibold;
         padding: 10px;
-        background-color: rgb(213, 218, 218);
+        background-color: $color-principal;
         text-align: center;
         h1{
             animation-name: titulo;
@@ -29,13 +29,13 @@ header{
                 margin: 20px 10px 20px 10px;
                 a{
                     text-decoration:none;
-                    color: black;
+                    color: $color-secundario;
                 }
             }
         }
     }
     .frente__productos{
-        background-color: rgb(213, 218, 218);
+        background-color: $color-principal;
         text-align: center;
         img{
             width: 200px;
@@ -45,7 +45,7 @@ header{
 }
 
 .nosotros{
-    background-color: rgb(213, 218, 218);
+    background-color: $color-principal;
     font-family: 'Montserrat', sans-serif;
     font-style: semibold;
     text-align: center;
@@ -53,7 +53,7 @@ header{
 
 .footer__acerca{
     .piedepagina__acerca{
-        background-color: rgb(213, 218, 218);
+        background-color: $color-principal;
         width: 100%;
         height: 100px;
         padding: 10px;
@@ -62,7 +62,7 @@ header{
     }
     .tarjetas-credito{
         h2{
-            background-color: rgb(213, 218, 218);
+            background-color: $color-principal;
             font-family: 'Montserrat', sans-serif;
             font-style: semibold;
             text-align: center;
@@ -70,14 +70,14 @@ header{
         img{
             width: 100%;
             height: 150px;
-            background-color: rgb(213, 218, 218);
+            background-color: $color-principal;
         }
     }
     .navegacion__acerca{
         font-family: "Montserrat", sans-serif;
         width: 100;
         padding: 14px;
-        background-color: rgb(213, 218, 218);
+        background-color: $color-principal;
         text-align: center;
         .navegacion__lista{
             li{
@@ -85,9 +85,9 @@ header{
                 display: inline;
                 margin: 20px 10px 20px 10px;
                 padding: 2px;
-                background-color: rgb(213, 218, 218);
+                background-color: $color-principal;
                 a{
-                    color: black;
+                    color: $color-secundario;
                     padding: 2px;
                     text-decoration: none;
                     text-align: center;
