@@ -134,6 +134,11 @@
                 text-align: center;
                 }
         }
+        a{
+            &:hover{
+                transform: scale(1.1);
+                }
+        }
         .tarjetas{
             img{
                 width: 100%;

@@ -213,6 +213,9 @@
   font-style: semibold;
   text-align: center; }
 
+.footer a:hover {
+  transform: scale(1.1); }
+
 .footer .tarjetas img {
   width: 100%;
   height: 150px;
@@ -488,6 +491,8 @@ main .catalogo__contenedor-6 {
   padding: 10px;
   display: flex;
   justify-content: space-around; }
+  .footerProductos .piedepaginaProductos a:hover {
+    transform: scale(1.1); }
 
 .footerProductos .tarjetas-credito h2 {
   background-color: #d5dada;
@@ -566,6 +571,9 @@ header .frente__productos {
   padding: 10px;
   display: flex;
   justify-content: space-around; }
+
+.footer__acerca a:hover {
+  transform: scale(1.1); }
 
 .footer__acerca .tarjetas-credito h2 {
   background-color: #d5dada;
@@ -660,6 +668,9 @@ header .encabezado {
   display: flex;
   justify-content: space-around; }
 
+.footerServicios a:hover {
+  transform: scale(1.1); }
+
 .footerServicios .tarjetas-credito h2 {
   background-color: #d5dada;
   font-family: 'Montserrat', sans-serif;
@@ -749,6 +760,9 @@ header .frente__productos {
   padding: 10px;
   display: flex;
   justify-content: space-around; }
+
+.footerContacto a:hover {
+  transform: scale(1.1); }
 
 .footerContacto .tarjetas-credito h2 {
   background-color: #d5dada;

@@ -80,6 +80,11 @@ header{
         display: flex;
         justify-content: space-around;
     }
+    a{
+        &:hover{
+            transform: scale(1.1);
+            }
+    }
     .tarjetas-credito{
         h2{
             background-color: $color-principal;
