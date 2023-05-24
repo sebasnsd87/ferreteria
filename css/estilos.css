@@ -558,19 +558,22 @@ main .catalogo__contenedor-6 {
     border: 2px solid black;
     border-radius: 5px; }
 
-main section h3 {
+.producto-ferre .tituloFerre h3 {
   width: 100%;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 18px;
   background-color: #d5dada; }
 
-main .catalogoFerre {
+.producto-ferre .catalogoFerre {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #d5dada; }
 
-main .catalogo__ferre-1 {
+.producto-ferre .catalogo__ferre-1 {
   width: 300px;
   height: 255px;
   margin: 20px;
@@ -578,9 +581,9 @@ main .catalogo__ferre-1 {
   -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
-  main .catalogo__ferre-1:hover {
+  .producto-ferre .catalogo__ferre-1:hover {
     transform: scale(1.1); }
-  main .catalogo__ferre-1 h4 {
+  .producto-ferre .catalogo__ferre-1 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -588,12 +591,12 @@ main .catalogo__ferre-1 {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .catalogo__ferre-1 img {
+  .producto-ferre .catalogo__ferre-1 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .catalogo__ferre-1 a {
+  .producto-ferre .catalogo__ferre-1 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -603,7 +606,7 @@ main .catalogo__ferre-1 {
     display: flex;
     justify-content: center; }
 
-main .catalogo__ferre-2 {
+.producto-ferre .catalogo__ferre-2 {
   width: 300px;
   height: 255px;
   margin: 20px;
@@ -611,9 +614,9 @@ main .catalogo__ferre-2 {
   -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
-  main .catalogo__ferre-2:hover {
+  .producto-ferre .catalogo__ferre-2:hover {
     transform: scale(1.1); }
-  main .catalogo__ferre-2 h4 {
+  .producto-ferre .catalogo__ferre-2 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -621,12 +624,12 @@ main .catalogo__ferre-2 {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .catalogo__ferre-2 img {
+  .producto-ferre .catalogo__ferre-2 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .catalogo__ferre-2 a {
+  .producto-ferre .catalogo__ferre-2 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -636,7 +639,7 @@ main .catalogo__ferre-2 {
     display: flex;
     justify-content: center; }
 
-main .catalogo__ferre-3 {
+.producto-ferre .catalogo__ferre-3 {
   width: 300px;
   height: 255px;
   margin: 20px;
@@ -644,9 +647,9 @@ main .catalogo__ferre-3 {
   -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
-  main .catalogo__ferre-3:hover {
+  .producto-ferre .catalogo__ferre-3:hover {
     transform: scale(1.1); }
-  main .catalogo__ferre-3 h4 {
+  .producto-ferre .catalogo__ferre-3 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -654,12 +657,12 @@ main .catalogo__ferre-3 {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .catalogo__ferre-3 img {
+  .producto-ferre .catalogo__ferre-3 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .catalogo__ferre-3 a {
+  .producto-ferre .catalogo__ferre-3 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -669,7 +672,7 @@ main .catalogo__ferre-3 {
     display: flex;
     justify-content: center; }
 
-main .catalogo__ferre-4 {
+.producto-ferre .catalogo__ferre-4 {
   width: 300px;
   height: 255px;
   margin: 20px;
@@ -677,9 +680,9 @@ main .catalogo__ferre-4 {
   -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
-  main .catalogo__ferre-4:hover {
+  .producto-ferre .catalogo__ferre-4:hover {
     transform: scale(1.1); }
-  main .catalogo__ferre-4 h4 {
+  .producto-ferre .catalogo__ferre-4 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -687,12 +690,12 @@ main .catalogo__ferre-4 {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .catalogo__ferre-4 img {
+  .producto-ferre .catalogo__ferre-4 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .catalogo__ferre-4 a {
+  .producto-ferre .catalogo__ferre-4 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -702,7 +705,7 @@ main .catalogo__ferre-4 {
     display: flex;
     justify-content: center; }
 
-main .catalogo__ferre-5 {
+.producto-ferre .catalogo__ferre-5 {
   width: 300px;
   height: 255px;
   margin: 20px;
@@ -710,9 +713,9 @@ main .catalogo__ferre-5 {
   -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
-  main .catalogo__ferre-5:hover {
+  .producto-ferre .catalogo__ferre-5:hover {
     transform: scale(1.1); }
-  main .catalogo__ferre-5 h4 {
+  .producto-ferre .catalogo__ferre-5 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -720,12 +723,12 @@ main .catalogo__ferre-5 {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .catalogo__ferre-5 img {
+  .producto-ferre .catalogo__ferre-5 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .catalogo__ferre-5 a {
+  .producto-ferre .catalogo__ferre-5 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -735,7 +738,7 @@ main .catalogo__ferre-5 {
     display: flex;
     justify-content: center; }
 
-main .catalogo__ferre-6 {
+.producto-ferre .catalogo__ferre-6 {
   width: 300px;
   height: 255px;
   margin: 20px;
@@ -743,9 +746,9 @@ main .catalogo__ferre-6 {
   -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
-  main .catalogo__ferre-6:hover {
+  .producto-ferre .catalogo__ferre-6:hover {
     transform: scale(1.1); }
-  main .catalogo__ferre-6 h4 {
+  .producto-ferre .catalogo__ferre-6 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -753,12 +756,12 @@ main .catalogo__ferre-6 {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .catalogo__ferre-6 img {
+  .producto-ferre .catalogo__ferre-6 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .catalogo__ferre-6 a {
+  .producto-ferre .catalogo__ferre-6 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -768,7 +771,7 @@ main .catalogo__ferre-6 {
     display: flex;
     justify-content: center; }
 
-main .catalogo__ferre-7 {
+.producto-ferre .catalogo__ferre-7 {
   width: 300px;
   height: 255px;
   margin: 20px;
@@ -776,9 +779,9 @@ main .catalogo__ferre-7 {
   -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
-  main .catalogo__ferre-7:hover {
+  .producto-ferre .catalogo__ferre-7:hover {
     transform: scale(1.1); }
-  main .catalogo__ferre-7 h4 {
+  .producto-ferre .catalogo__ferre-7 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -786,12 +789,12 @@ main .catalogo__ferre-7 {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .catalogo__ferre-7 img {
+  .producto-ferre .catalogo__ferre-7 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .catalogo__ferre-7 a {
+  .producto-ferre .catalogo__ferre-7 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -801,7 +804,7 @@ main .catalogo__ferre-7 {
     display: flex;
     justify-content: center; }
 
-main .catalogo__ferre-8 {
+.producto-ferre .catalogo__ferre-8 {
   width: 300px;
   height: 255px;
   margin: 20px;
@@ -809,9 +812,9 @@ main .catalogo__ferre-8 {
   -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
-  main .catalogo__ferre-8:hover {
+  .producto-ferre .catalogo__ferre-8:hover {
     transform: scale(1.1); }
-  main .catalogo__ferre-8 h4 {
+  .producto-ferre .catalogo__ferre-8 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -819,12 +822,12 @@ main .catalogo__ferre-8 {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .catalogo__ferre-8 img {
+  .producto-ferre .catalogo__ferre-8 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .catalogo__ferre-8 a {
+  .producto-ferre .catalogo__ferre-8 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -834,7 +837,7 @@ main .catalogo__ferre-8 {
     display: flex;
     justify-content: center; }
 
-main .catalogo__ferre-9 {
+.producto-ferre .catalogo__ferre-9 {
   width: 300px;
   height: 255px;
   margin: 20px;
@@ -842,9 +845,9 @@ main .catalogo__ferre-9 {
   -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
-  main .catalogo__ferre-9:hover {
+  .producto-ferre .catalogo__ferre-9:hover {
     transform: scale(1.1); }
-  main .catalogo__ferre-9 h4 {
+  .producto-ferre .catalogo__ferre-9 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -852,12 +855,12 @@ main .catalogo__ferre-9 {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .catalogo__ferre-9 img {
+  .producto-ferre .catalogo__ferre-9 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .catalogo__ferre-9 a {
+  .producto-ferre .catalogo__ferre-9 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -867,7 +870,7 @@ main .catalogo__ferre-9 {
     display: flex;
     justify-content: center; }
 
-main .catalogo__ferre-10 {
+.producto-ferre .catalogo__ferre-10 {
   width: 300px;
   height: 255px;
   margin: 20px;
@@ -875,9 +878,9 @@ main .catalogo__ferre-10 {
   -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
-  main .catalogo__ferre-10:hover {
+  .producto-ferre .catalogo__ferre-10:hover {
     transform: scale(1.1); }
-  main .catalogo__ferre-10 h4 {
+  .producto-ferre .catalogo__ferre-10 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -885,12 +888,12 @@ main .catalogo__ferre-10 {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .catalogo__ferre-10 img {
+  .producto-ferre .catalogo__ferre-10 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .catalogo__ferre-10 a {
+  .producto-ferre .catalogo__ferre-10 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -900,7 +903,7 @@ main .catalogo__ferre-10 {
     display: flex;
     justify-content: center; }
 
-main .catalogo__ferre-11 {
+.producto-ferre .catalogo__ferre-11 {
   width: 300px;
   height: 255px;
   margin: 20px;
@@ -908,9 +911,9 @@ main .catalogo__ferre-11 {
   -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
-  main .catalogo__ferre-11:hover {
+  .producto-ferre .catalogo__ferre-11:hover {
     transform: scale(1.1); }
-  main .catalogo__ferre-11 h4 {
+  .producto-ferre .catalogo__ferre-11 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -918,12 +921,12 @@ main .catalogo__ferre-11 {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .catalogo__ferre-11 img {
+  .producto-ferre .catalogo__ferre-11 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .catalogo__ferre-11 a {
+  .producto-ferre .catalogo__ferre-11 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
@@ -933,7 +936,7 @@ main .catalogo__ferre-11 {
     display: flex;
     justify-content: center; }
 
-main .catalogo__ferre-12 {
+.producto-ferre .catalogo__ferre-12 {
   width: 300px;
   height: 255px;
   margin: 20px;
@@ -941,9 +944,9 @@ main .catalogo__ferre-12 {
   -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
-  main .catalogo__ferre-12:hover {
+  .producto-ferre .catalogo__ferre-12:hover {
     transform: scale(1.1); }
-  main .catalogo__ferre-12 h4 {
+  .producto-ferre .catalogo__ferre-12 h4 {
     width: 100%;
     height: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -951,12 +954,12 @@ main .catalogo__ferre-12 {
     display: flex;
     align-items: flex-start;
     justify-content: center; }
-  main .catalogo__ferre-12 img {
+  .producto-ferre .catalogo__ferre-12 img {
     width: 100%;
     height: 190px;
     display: flex;
     align-items: first baseline; }
-  main .catalogo__ferre-12 a {
+  .producto-ferre .catalogo__ferre-12 a {
     width: 100%;
     height: 40px;
     background-color: #ce8a37;
