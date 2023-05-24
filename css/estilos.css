@@ -523,6 +523,488 @@ main .catalogo__contenedor-6 {
       text-decoration: none;
       text-align: center; }
 
+.encabezadoFerre {
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  padding: 5px;
+  width: 100%;
+  height: 80px;
+  background-color: #d5dada;
+  text-align: center; }
+  .encabezadoFerre h1 {
+    animation-name: titulo;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial; }
+  .encabezadoFerre .encabezado__lista li {
+    display: inline;
+    margin: 10px 10px 10px 10px; }
+    .encabezadoFerre .encabezado__lista li a {
+      text-decoration: none;
+      color: black; }
+  .encabezadoFerre .frente__productos img {
+    width: 100%;
+    height: 200px; }
+
+.navbarFerre {
+  text-align: center;
+  padding: 20px;
+  background-color: #d5dada; }
+  .navbarFerre .container-fluid .form-control {
+    border: 2px solid black;
+    border-radius: 5px; }
+  .navbarFerre .container-fluid .btn {
+    border: 2px solid black;
+    border-radius: 5px; }
+
+main section h3 {
+  width: 100%;
+  text-align: center;
+  background-color: #d5dada; }
+
+main .catalogoFerre {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #d5dada; }
+
+main .catalogo__ferre-1 {
+  width: 300px;
+  height: 255px;
+  margin: 20px;
+  background-color: #d5dada;
+  -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+  main .catalogo__ferre-1:hover {
+    transform: scale(1.1); }
+  main .catalogo__ferre-1 h4 {
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ce8a37;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+  main .catalogo__ferre-1 img {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline; }
+  main .catalogo__ferre-1 a {
+    width: 100%;
+    height: 40px;
+    background-color: #ce8a37;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; }
+
+main .catalogo__ferre-2 {
+  width: 300px;
+  height: 255px;
+  margin: 20px;
+  background-color: #d5dada;
+  -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+  main .catalogo__ferre-2:hover {
+    transform: scale(1.1); }
+  main .catalogo__ferre-2 h4 {
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ce8a37;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+  main .catalogo__ferre-2 img {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline; }
+  main .catalogo__ferre-2 a {
+    width: 100%;
+    height: 40px;
+    background-color: #ce8a37;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; }
+
+main .catalogo__ferre-3 {
+  width: 300px;
+  height: 255px;
+  margin: 20px;
+  background-color: #d5dada;
+  -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+  main .catalogo__ferre-3:hover {
+    transform: scale(1.1); }
+  main .catalogo__ferre-3 h4 {
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ce8a37;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+  main .catalogo__ferre-3 img {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline; }
+  main .catalogo__ferre-3 a {
+    width: 100%;
+    height: 40px;
+    background-color: #ce8a37;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; }
+
+main .catalogo__ferre-4 {
+  width: 300px;
+  height: 255px;
+  margin: 20px;
+  background-color: #d5dada;
+  -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+  main .catalogo__ferre-4:hover {
+    transform: scale(1.1); }
+  main .catalogo__ferre-4 h4 {
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ce8a37;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+  main .catalogo__ferre-4 img {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline; }
+  main .catalogo__ferre-4 a {
+    width: 100%;
+    height: 40px;
+    background-color: #ce8a37;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; }
+
+main .catalogo__ferre-5 {
+  width: 300px;
+  height: 255px;
+  margin: 20px;
+  background-color: #d5dada;
+  -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+  main .catalogo__ferre-5:hover {
+    transform: scale(1.1); }
+  main .catalogo__ferre-5 h4 {
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ce8a37;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+  main .catalogo__ferre-5 img {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline; }
+  main .catalogo__ferre-5 a {
+    width: 100%;
+    height: 40px;
+    background-color: #ce8a37;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; }
+
+main .catalogo__ferre-6 {
+  width: 300px;
+  height: 255px;
+  margin: 20px;
+  background-color: #d5dada;
+  -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+  main .catalogo__ferre-6:hover {
+    transform: scale(1.1); }
+  main .catalogo__ferre-6 h4 {
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ce8a37;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+  main .catalogo__ferre-6 img {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline; }
+  main .catalogo__ferre-6 a {
+    width: 100%;
+    height: 40px;
+    background-color: #ce8a37;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; }
+
+main .catalogo__ferre-7 {
+  width: 300px;
+  height: 255px;
+  margin: 20px;
+  background-color: #d5dada;
+  -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+  main .catalogo__ferre-7:hover {
+    transform: scale(1.1); }
+  main .catalogo__ferre-7 h4 {
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ce8a37;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+  main .catalogo__ferre-7 img {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline; }
+  main .catalogo__ferre-7 a {
+    width: 100%;
+    height: 40px;
+    background-color: #ce8a37;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; }
+
+main .catalogo__ferre-8 {
+  width: 300px;
+  height: 255px;
+  margin: 20px;
+  background-color: #d5dada;
+  -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+  main .catalogo__ferre-8:hover {
+    transform: scale(1.1); }
+  main .catalogo__ferre-8 h4 {
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ce8a37;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+  main .catalogo__ferre-8 img {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline; }
+  main .catalogo__ferre-8 a {
+    width: 100%;
+    height: 40px;
+    background-color: #ce8a37;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; }
+
+main .catalogo__ferre-9 {
+  width: 300px;
+  height: 255px;
+  margin: 20px;
+  background-color: #d5dada;
+  -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+  main .catalogo__ferre-9:hover {
+    transform: scale(1.1); }
+  main .catalogo__ferre-9 h4 {
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ce8a37;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+  main .catalogo__ferre-9 img {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline; }
+  main .catalogo__ferre-9 a {
+    width: 100%;
+    height: 40px;
+    background-color: #ce8a37;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; }
+
+main .catalogo__ferre-10 {
+  width: 300px;
+  height: 255px;
+  margin: 20px;
+  background-color: #d5dada;
+  -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+  main .catalogo__ferre-10:hover {
+    transform: scale(1.1); }
+  main .catalogo__ferre-10 h4 {
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ce8a37;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+  main .catalogo__ferre-10 img {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline; }
+  main .catalogo__ferre-10 a {
+    width: 100%;
+    height: 40px;
+    background-color: #ce8a37;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; }
+
+main .catalogo__ferre-11 {
+  width: 300px;
+  height: 255px;
+  margin: 20px;
+  background-color: #d5dada;
+  -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+  main .catalogo__ferre-11:hover {
+    transform: scale(1.1); }
+  main .catalogo__ferre-11 h4 {
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ce8a37;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+  main .catalogo__ferre-11 img {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline; }
+  main .catalogo__ferre-11 a {
+    width: 100%;
+    height: 40px;
+    background-color: #ce8a37;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; }
+
+main .catalogo__ferre-12 {
+  width: 300px;
+  height: 255px;
+  margin: 20px;
+  background-color: #d5dada;
+  -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+  main .catalogo__ferre-12:hover {
+    transform: scale(1.1); }
+  main .catalogo__ferre-12 h4 {
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ce8a37;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+  main .catalogo__ferre-12 img {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline; }
+  main .catalogo__ferre-12 a {
+    width: 100%;
+    height: 40px;
+    background-color: #ce8a37;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; }
+
+.footerFerre .piedepaginaFerre {
+  background-color: #d5dada;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around; }
+  .footerFerre .piedepaginaFerre a:hover {
+    transform: scale(1.1); }
+
+.footerFerre .tarjetas-credito h2 {
+  background-color: #d5dada;
+  font-family: 'Montserrat', sans-serif;
+  font-style: semibold;
+  text-align: center; }
+
+.footerFerre .tarjetas-credito img {
+  width: 100%;
+  height: 150px;
+  background-color: #d5dada; }
+
+.footerFerre .navegacionFerre {
+  font-family: "Montserrat", sans-serif;
+  width: 100;
+  padding: 14px;
+  background-color: #d5dada;
+  text-align: center; }
+  .footerFerre .navegacionFerre .navegacion__lista li {
+    list-style: none;
+    display: inline;
+    margin: 20px 10px 20px 10px;
+    padding: 2px;
+    background-color: #d5dada; }
+    .footerFerre .navegacionFerre .navegacion__lista li a {
+      color: black;
+      padding: 2px;
+      text-decoration: none;
+      text-align: center; }
+
 header .encabezado__nosotros {
   list-style: none;
   font-family: 'Montserrat', sans-serif;

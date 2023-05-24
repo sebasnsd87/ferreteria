@@ -1,0 +1,560 @@
+.encabezadoFerre{
+    list-style:none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    padding: 5px;
+    width: 100%;
+    height: 80px;
+    background-color: $color-principal;
+    text-align: center;
+h1{
+    animation-name: titulo;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+}
+.encabezado__lista{
+    li{
+        display: inline;
+        margin: 10px 10px 10px 10px;
+        a{
+            text-decoration:none;
+            color: $color-secundario;
+        }
+    }
+}
+.frente__productos{
+    img{
+        width: 100%;
+        height: 200px;
+    }
+}
+}
+
+.navbarFerre{
+text-align: center;
+padding: 20px;
+background-color: $color-principal;
+.container-fluid{
+.form-control{
+    border: 2px solid $color-secundario;
+    border-radius: 5px;
+}
+.btn{
+    border: 2px solid $color-secundario;
+    border-radius: 5px;
+}
+}
+}
+
+main{
+section{
+h3{
+    width: 100%;
+    text-align: center;
+    background-color: $color-principal;
+}
+}
+.catalogoFerre{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: $color-principal;
+}
+.catalogo__ferre-1{
+    width: 300px;
+    height: 255px;
+    margin: 20px;
+    background-color: $color-principal;
+    -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+    &:hover{
+    transform: scale(1.1);
+    }
+    h4{
+        width: 100%;
+        height: 30px;
+        font-family: 'Montserrat', sans-serif;
+        background-color: $color-terciario;
+        display: flex;
+        align-items:flex-start;
+        justify-content: center;
+    }
+    img{
+        width: 100%;
+        height: 190px;
+        display: flex;
+        align-items: first baseline;
+    }
+    a{
+        width: 100%;
+        height: 40px;
+        background-color: $color-terciario;
+        color: $color-secundario;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+}
+.catalogo__ferre-2{
+width: 300px;
+height: 255px;
+margin: 20px;
+background-color: $color-principal;
+-webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+&:hover{
+transform: scale(1.1);
+}
+h4{
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $color-terciario;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline;
+}
+a{
+    width: 100%;
+    height: 40px;
+    background-color: $color-terciario;
+    color: $color-secundario;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+}
+.catalogo__ferre-3{
+width: 300px;
+height: 255px;
+margin: 20px;
+background-color: $color-principal;
+-webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+&:hover{
+transform: scale(1.1);
+}
+h4{
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $color-terciario;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline;
+}
+a{
+    width: 100%;
+    height: 40px;
+    background-color: $color-terciario;
+    color: $color-secundario;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+}
+.catalogo__ferre-4{
+width: 300px;
+height: 255px;
+margin: 20px;
+background-color: $color-principal;
+-webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+&:hover{
+transform: scale(1.1);
+}
+h4{
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $color-terciario;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline;
+}
+a{
+    width: 100%;
+    height: 40px;
+    background-color: $color-terciario;
+    color: $color-secundario;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+}
+.catalogo__ferre-5{
+width: 300px;
+height: 255px;
+margin: 20px;
+background-color: $color-principal;
+-webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+&:hover{
+transform: scale(1.1);
+}
+h4{
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $color-terciario;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline;
+}
+a{
+    width: 100%;
+    height: 40px;
+    background-color: $color-terciario;
+    color: $color-secundario;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+}
+.catalogo__ferre-6{
+width: 300px;
+height: 255px;
+margin: 20px;
+background-color: $color-principal;
+-webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+&:hover{
+transform: scale(1.1);
+}
+h4{
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $color-terciario;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: first baseline;
+}
+a{
+    width: 100%;
+    height: 40px;
+    background-color: $color-terciario;
+    color: $color-secundario;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+}
+.catalogo__ferre-7{
+    width: 300px;
+    height: 255px;
+    margin: 20px;
+    background-color: $color-principal;
+    -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+    &:hover{
+    transform: scale(1.1);
+    }
+    h4{
+        width: 100%;
+        height: 30px;
+        font-family: 'Montserrat', sans-serif;
+        background-color: $color-terciario;
+        display: flex;
+        align-items:flex-start;
+        justify-content: center;
+    }
+    img{
+        width: 100%;
+        height: 190px;
+        display: flex;
+        align-items: first baseline;
+    }
+    a{
+        width: 100%;
+        height: 40px;
+        background-color: $color-terciario;
+        color: $color-secundario;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+    }
+    .catalogo__ferre-8{
+        width: 300px;
+        height: 255px;
+        margin: 20px;
+        background-color: $color-principal;
+        -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+        box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+        &:hover{
+        transform: scale(1.1);
+        }
+        h4{
+            width: 100%;
+            height: 30px;
+            font-family: 'Montserrat', sans-serif;
+            background-color: $color-terciario;
+            display: flex;
+            align-items:flex-start;
+            justify-content: center;
+        }
+        img{
+            width: 100%;
+            height: 190px;
+            display: flex;
+            align-items: first baseline;
+        }
+        a{
+            width: 100%;
+            height: 40px;
+            background-color: $color-terciario;
+            color: $color-secundario;
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+        }
+        }
+        .catalogo__ferre-9{
+            width: 300px;
+            height: 255px;
+            margin: 20px;
+            background-color: $color-principal;
+            -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+            box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+            &:hover{
+            transform: scale(1.1);
+            }
+            h4{
+                width: 100%;
+                height: 30px;
+                font-family: 'Montserrat', sans-serif;
+                background-color: $color-terciario;
+                display: flex;
+                align-items:flex-start;
+                justify-content: center;
+            }
+            img{
+                width: 100%;
+                height: 190px;
+                display: flex;
+                align-items: first baseline;
+            }
+            a{
+                width: 100%;
+                height: 40px;
+                background-color: $color-terciario;
+                color: $color-secundario;
+                font-family: 'Montserrat', sans-serif;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+            }
+            }
+            .catalogo__ferre-10{
+                width: 300px;
+                height: 255px;
+                margin: 20px;
+                background-color: $color-principal;
+                -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+                box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+                &:hover{
+                transform: scale(1.1);
+                }
+                h4{
+                    width: 100%;
+                    height: 30px;
+                    font-family: 'Montserrat', sans-serif;
+                    background-color: $color-terciario;
+                    display: flex;
+                    align-items:flex-start;
+                    justify-content: center;
+                }
+                img{
+                    width: 100%;
+                    height: 190px;
+                    display: flex;
+                    align-items: first baseline;
+                }
+                a{
+                    width: 100%;
+                    height: 40px;
+                    background-color: $color-terciario;
+                    color: $color-secundario;
+                    font-family: 'Montserrat', sans-serif;
+                    text-decoration: none;
+                    display: flex;
+                    justify-content: center;
+                }
+        }
+        .catalogo__ferre-11{
+            width: 300px;
+            height: 255px;
+            margin: 20px;
+            background-color: $color-principal;
+            -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+            box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+            &:hover{
+            transform: scale(1.1);
+            }
+            h4{
+                width: 100%;
+                height: 30px;
+                font-family: 'Montserrat', sans-serif;
+                background-color: $color-terciario;
+                display: flex;
+                align-items:flex-start;
+                justify-content: center;
+            }
+            img{
+                width: 100%;
+                height: 190px;
+                display: flex;
+                align-items: first baseline;
+            }
+            a{
+                width: 100%;
+                height: 40px;
+                background-color: $color-terciario;
+                color: $color-secundario;
+                font-family: 'Montserrat', sans-serif;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+            }
+    }
+    .catalogo__ferre-12{
+        width: 300px;
+        height: 255px;
+        margin: 20px;
+        background-color: $color-principal;
+        -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+        box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+        &:hover{
+        transform: scale(1.1);
+        }
+        h4{
+            width: 100%;
+            height: 30px;
+            font-family: 'Montserrat', sans-serif;
+            background-color: $color-terciario;
+            display: flex;
+            align-items:flex-start;
+            justify-content: center;
+        }
+        img{
+            width: 100%;
+            height: 190px;
+            display: flex;
+            align-items: first baseline;
+        }
+        a{
+            width: 100%;
+            height: 40px;
+            background-color: $color-terciario;
+            color: $color-secundario;
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+        }
+}
+}
+
+.footerFerre{
+.piedepaginaFerre{
+background-color: $color-principal;
+width: 100%;
+height: 100px;
+padding: 10px;
+display: flex;
+justify-content: space-around;
+a{
+    &:hover{
+        transform: scale(1.1);
+        }
+}
+}
+.tarjetas-credito{
+h2{
+    background-color: $color-principal;
+    font-family: 'Montserrat', sans-serif;
+    font-style: semibold;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: 150px;
+    background-color: $color-principal;
+}
+}
+.navegacionFerre{
+font-family: "Montserrat", sans-serif;
+width: 100;
+padding: 14px;
+background-color: $color-principal;
+text-align: center;
+.navegacion__lista{
+    li{
+        list-style: none;
+        display: inline;
+        margin: 20px 10px 20px 10px;
+        padding: 2px;
+        background-color: $color-principal;
+        a{
+            color: $color-secundario;
+            padding: 2px;
+            text-decoration: none;
+            text-align: center;
+        }
+    }
+}
+}
+}
