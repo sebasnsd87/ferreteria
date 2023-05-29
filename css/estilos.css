@@ -147,8 +147,8 @@
   width: 100%;
   height: 320px; }
   .hero .frente img {
-    width: 90%;
-    height: 320px; }
+    width: 60%;
+    height: 300px; }
 
 .hero .ferre .ferre__titulo h1 {
   font-family: 'Montserrat', sans-serif;
@@ -1234,6 +1234,14 @@ header .frente__productos {
     background-color: #d5dada; }
     .contacto-main .mensaje div label {
       font-family: 'Montserrat', sans-serif; }
+    .contacto-main .mensaje div input {
+      border: 2px solid black;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column; }
+    .contacto-main .mensaje div textarea {
+      border: 2px solid black;
+      border-radius: 5px; }
 
 .ubicacion iframe {
   width: 100%; }
