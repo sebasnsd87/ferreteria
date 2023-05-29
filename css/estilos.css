@@ -1232,16 +1232,42 @@ header .frente__productos {
     display: flex;
     justify-content: center;
     background-color: #d5dada; }
-    .contacto-main .mensaje div label {
-      font-family: 'Montserrat', sans-serif; }
-    .contacto-main .mensaje div input {
+    .contacto-main .mensaje div .input {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      margin: 5px;
+      padding: 5px;
+      width: 300px;
       border: 2px solid black;
       border-radius: 5px;
-      display: flex;
-      flex-direction: column; }
-    .contacto-main .mensaje div textarea {
+      -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+  .contacto-main .mensaje .textarea {
+    margin: 5px;
+    padding: 5px; }
+    .contacto-main .mensaje .textarea textarea {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
       border: 2px solid black;
-      border-radius: 5px; }
+      border-radius: 5px;
+      -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+  .contacto-main .mensaje .aceptar {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px; }
+  .contacto-main .mensaje .restablecer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px; }
 
 .ubicacion iframe {
   width: 100%; }

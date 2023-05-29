@@ -59,19 +59,47 @@ header{
             display: flex;
             justify-content:center;
             background-color: $color-principal;
-            label{
+            .input{
                 font-family: 'Montserrat', sans-serif;
-            }
-            input{
+                font-size: 14px;
+                margin: 5px;
+                padding: 5px;
+                width: 300px;
                 border: 2px solid black;
                 border-radius: 5px;
-                display: flex;
-                justify-content: right;
+                -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+                box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
             }
+        }
+        .textarea{
+            margin: 5px;
+            padding: 5px;
             textarea{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
                 border: 2px solid black;
                 border-radius: 5px;
+                -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+                box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
             }
+        }
+        .aceptar{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 5px;
+            padding: 5px;
+            }
+        .restablecer{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 5px;
+            padding: 5px;
         }
     }
 }
