@@ -8,12 +8,6 @@ header{
             height: 80px;
             background-color: $color-principal;
             text-align: center;
-        h1{
-            animation-name: titulo;
-            animation-duration: 2s;
-            animation-timing-function: ease-in-out;
-            animation-direction: initial;
-        }
         .encabezado__lista{
             li{
                 display: inline;

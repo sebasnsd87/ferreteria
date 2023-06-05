@@ -7,21 +7,6 @@ header{
         padding: 10px;
         background-color: $color-principal;
         text-align: center;
-        h1{
-            animation-name: titulo;
-            animation-duration: 2s;
-            animation-timing-function: ease-in-out;
-            animation-direction: initial;
-        }
-        @keyframes titulo{
-            from{
-                margin-right: 100%;
-                width: 300%;
-            }
-            to{
-                margin-right: 0;
-                width: 100%;
-            }
         }
         .encabezado__lista{
             li{
@@ -42,7 +27,6 @@ header{
             height: 200px;
         }
     }
-}
 
 .nosotros{
     background-color: $color-principal;

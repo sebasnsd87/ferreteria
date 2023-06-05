@@ -96,14 +96,6 @@
   /*DECLARO AEREAS*/
   grid-template-areas: "nav nav nav" "header header aside" "main main main" "footer footer footer"; }
 
-@keyframes titulo {
-  from {
-    margin-right: 100%;
-    width: 300%; }
-  to {
-    margin-right: 0;
-    width: 100%; } }
-
 .hero {
   grid-area: header;
   background-color: #d5dada;
@@ -251,11 +243,6 @@
   height: 80px;
   background-color: #d5dada;
   text-align: center; }
-  .encabezado h1 {
-    animation-name: titulo;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-direction: initial; }
   .encabezado .encabezado__lista li {
     display: inline;
     margin: 10px 10px 10px 10px; }
@@ -536,11 +523,6 @@ main .catalogo__contenedor-6 {
   height: 80px;
   background-color: #d5dada;
   text-align: center; }
-  .encabezadoFerre h1 {
-    animation-name: titulo;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-direction: initial; }
   .encabezadoFerre .encabezado__lista li {
     display: inline;
     margin: 10px 10px 10px 10px; }
@@ -1021,30 +1003,18 @@ header .encabezado__nosotros {
   padding: 10px;
   background-color: #d5dada;
   text-align: center; }
-  header .encabezado__nosotros h1 {
-    animation-name: titulo;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-direction: initial; }
 
-@keyframes titulo {
-  from {
-    margin-right: 100%;
-    width: 300%; }
-  to {
-    margin-right: 0;
-    width: 100%; } }
-  header .encabezado__nosotros .encabezado__lista li {
-    display: inline;
-    margin: 20px 10px 20px 10px; }
-    header .encabezado__nosotros .encabezado__lista li a {
-      text-decoration: none;
-      color: black; }
+header .encabezado__lista li {
+  display: inline;
+  margin: 20px 10px 20px 10px; }
+  header .encabezado__lista li a {
+    text-decoration: none;
+    color: black; }
 
-header .frente__productos {
+.frente__productos {
   background-color: #d5dada;
   text-align: center; }
-  header .frente__productos img {
+  .frente__productos img {
     width: 200px;
     height: 200px; }
 
@@ -1110,11 +1080,6 @@ header .encabezado {
   height: 80px;
   background-color: #d5dada;
   text-align: center; }
-  header .encabezado h1 {
-    animation-name: titulo;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-direction: initial; }
   header .encabezado .encabezado__lista li {
     display: inline;
     margin: 10px 10px 10px 10px; }
@@ -1206,19 +1171,6 @@ header .encabezadoContacto {
   padding: 10px;
   background-color: #d5dada;
   text-align: center; }
-  header .encabezadoContacto h1 {
-    animation-name: titulo;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-direction: initial; }
-
-@keyframes titulo {
-  from {
-    margin-right: 100%;
-    width: 300%; }
-  to {
-    margin-right: 0;
-    width: 100%; } }
   header .encabezadoContacto .encabezado__lista li {
     display: inline;
     margin: 20px 10px 20px 10px; }
