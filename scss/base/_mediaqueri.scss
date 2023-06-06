@@ -746,8 +746,11 @@
                         padding: 1px;
                         text-align: center;
                         background-color: rgb(213, 218, 218);
-                        .tarejtas img{
-                            width: 100%;
+                        .tarjetas{
+                            img{
+                                width: 80%;
+                                height: 100px;
+                            }
                         }                    
                     }
                 }
