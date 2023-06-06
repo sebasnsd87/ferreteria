@@ -233,6 +233,8 @@
       padding: 2px;
       text-decoration: none;
       text-align: center; }
+  .footer .navegacion .navegacion__lista h6 {
+    background-color: #d5dada; }
 
 .encabezado {
   list-style: none;
