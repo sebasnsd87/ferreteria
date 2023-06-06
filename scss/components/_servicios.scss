@@ -39,13 +39,15 @@ header{
     }
     .contenedor{
         width: 100%;
+        padding: 20px;
         display: flex;
         flex-wrap: wrap;
-        justify-content:space-evenly;
+        justify-content:space-between;
         background-color: $color-principal;
         .servicios__contenedor{
-            width: 200px;
-            height: 200px;
+            width: 300px;
+            height: 255px;
+            margin: 20px;
             border: 2px solid $color-secundario;
             border-radius: 5px;
             display: flex;
@@ -89,7 +91,7 @@ header{
         }
         img{
             width: 100%;
-            height: 150px;
+            height: 100px;
             background-color: $color-principal;
         }
     }
