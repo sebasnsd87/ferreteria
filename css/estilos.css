@@ -1696,7 +1696,7 @@ header .frente__productos {
           align-items: first baseline; }
         main .catalogo .catalogo div .catalogo div h4 .catalogo div:hover {
           transform: scale(1.1); }
-  main .catalogoFerre {
+  .producto-ferre .catalogoFerre {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
