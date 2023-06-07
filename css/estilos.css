@@ -1671,6 +1671,32 @@ header .frente__productos {
           text-decoration: none;
           text-align: center; } }
 
+@media screen and (max-width: 680px) {
+  main .catalogo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #d5dada; }
+    main .catalogo .catalogo div {
+      width: 170px;
+      height: 210px;
+      margin: 10px;
+      background-color: #d5dada;
+      -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
+      main .catalogo .catalogo div .catalogo div h4 {
+        display: flex;
+        justify-content: center; }
+        main .catalogo .catalogo div .catalogo div h4 .catalogo img {
+          width: 100%;
+          height: 110px;
+          display: flex;
+          align-items: first baseline; }
+        main .catalogo .catalogo div .catalogo div h4 .catalogo div:hover {
+          transform: scale(1.1); } }
+
 @media screen and (max-width: 550px) {
   .grid {
     width: 100%;
@@ -1781,6 +1807,17 @@ header .frente__productos {
 
 .aside {
   width: 100%; }
+
+@media screen and (max-width: 500px) {
+  footer h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    width: 100;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 10px; } }
 
 @media screen and (max-width: 490px) {
   header .encabezado {
