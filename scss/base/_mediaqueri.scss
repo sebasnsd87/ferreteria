@@ -527,8 +527,16 @@
                 }
             }
         }
+        .catalogoFerre{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: rgb(213, 218, 218) ;
+        }
     }
 }
+    
 
 
 @media screen and (max-width:550px){
