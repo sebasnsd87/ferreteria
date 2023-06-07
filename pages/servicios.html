@@ -19,7 +19,8 @@
         <meta property="og:description" content="Negocio familiar con 36 años de experiencia en el rubro, encontraras diferentes productos para el hogar, tu auto, bicicleta o moto">
         <!--------------------SASS------------------->
         <link rel="stylesheet" href="../css/estilos.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!----------------SCROLL------------------------>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
 <body>
     <header class="hero">
@@ -49,13 +50,13 @@
             <div class="servicios__contenedor">
                 <img src="../img/viabariloche.png" alt="ViaBariloche">
             </div>
-            <div class="servicios__contenedor">
+            <div class="servicios__contenedor" data-aos="zoom-out-up">
                 <img src="../img/tigreiguazu.png" alt="TigreIguazu">
             </div>
-            <div class="servicios__contenedor">
+            <div class="servicios__contenedor" data-aos="zoom-out-up">
                 <img src="../img/plataforma.png" alt="Plataforma10">
             </div>
-            <div class="servicios__contenedor">
+            <div class="servicios__contenedor" data-aos="zoom-out-up">
                 <img src="../img/virtual.png" alt="Virtual">
             </div>
         </section>
@@ -81,5 +82,9 @@
         <h6>Copyright®2023 SERVIOWEB</h6>
     </section>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

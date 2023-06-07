@@ -20,7 +20,8 @@
     <!--------------------SASS------------------->
     <link rel="stylesheet" href="../css/estilos.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!----------------SCROLL------------------------>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 <body>
@@ -72,17 +73,17 @@
                 <img src="../img/pinturalogo.png" alt="pinturas">
                 <a href="./pinturas.html">COMPRAR</a>
             </div>
-            <div class="catalogo__contenedor-4">
+            <div class="catalogo__contenedor-4" data-aos="zoom-in">
                 <h4>REPUESTOS DEL AUTOMOTOR</h4>
                 <img src="../img/repuestos-auto.png" alt="repuestos-del-automotor">
                 <a href="./rtoauto.html">COMPRAR</a>
             </div>
-            <div class="catalogo__contenedor-5">
+            <div class="catalogo__contenedor-5" data-aos="zoom-in">
                 <h4>REPUESTOS DE MOTOS</h4>
                 <img src="../img/moto-nuevo.png" alt="repuestos-de-motos">
                 <a href="./rtomoto.html">COMPRAR</a>
             </div>
-            <div class="catalogo__contenedor-6">
+            <div class="catalogo__contenedor-6" data-aos="zoom-in">
                 <h4>REPUESTOS DE BICICLETAS</h4>
                 <img src="../img/bici-nuevo.png" alt="repuestos-de-bicicletas">
                 <a href="./rtobicicleta.html">COMPRAR</a>
@@ -112,7 +113,10 @@
             <h6>Copyright®2023 SERVIOWEB</h6>
         </section>
     </footer>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
