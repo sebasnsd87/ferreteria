@@ -1115,7 +1115,8 @@ header .encabezado {
       border-radius: 5px;
       display: flex;
       align-items: center;
-      background-color: #d5dada;
+      background: #fcfefe;
+      background: linear-gradient(90deg, #fcfefe 0%, #d6fcfe 35%, #b7f0fa 70%);
       -webkit-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75);
       box-shadow: 11px 11px 15px 0px rgba(0, 0, 0, 0.75); }
