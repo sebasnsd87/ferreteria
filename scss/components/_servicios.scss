@@ -40,18 +40,68 @@ header{
     .contenedor{
         width: 100%;
         padding: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content:space-between;
         background-color: $color-principal;
-        .servicios__contenedor{
-            width: 300px;
+        .viabarilo{
+            /*width: 300px;
             height: 255px;
             margin: 20px;
             border: 2px solid $color-secundario;
-            border-radius: 5px;
+            border-radius: 5px;*/
             display: flex;
-            align-items: center;
+            justify-content: center;
+            background: rgb(252,254,254);
+            background: linear-gradient(90deg, rgba(252,254,254,1) 0%, rgba(214,252,254,1) 35%, rgba(183,240,250,1) 70%);
+            -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+            box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75); ;
+            &:hover{
+                transform: scale(1.1);
+                }
+            img{
+                width: 100%;
+                height: 150px;
+            }
+        }
+        .tigre{
+            /*width: 300px;
+            height: 255px;
+            margin: 20px;
+            border: 2px solid $color-secundario;
+            border-radius: 5px;*/
+            display: flex;
+            justify-content: center;
+            background: rgb(252,254,254);
+            background: linear-gradient(90deg, rgba(252,254,254,1) 0%, rgba(214,252,254,1) 35%, rgba(183,240,250,1) 70%);
+            -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+            box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75); ;
+            &:hover{
+                transform: scale(1.1);
+                }
+            img{
+                width: 100%;
+                height: 150px;
+            }
+        }
+        .virtu{
+            display: flex;
+            justify-content: center;
+            background: rgb(252,254,254);
+            background: linear-gradient(90deg, rgba(252,254,254,1) 0%, rgba(214,252,254,1) 35%, rgba(183,240,250,1) 70%);
+            -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+            box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75); ;
+            &:hover{
+                transform: scale(1.1);
+                }
+            img{
+                width: 100%;
+                height: 150px;
+            }
+        }
+        .plata{
+            display: flex;
+            justify-content: center;
             background: rgb(252,254,254);
             background: linear-gradient(90deg, rgba(252,254,254,1) 0%, rgba(214,252,254,1) 35%, rgba(183,240,250,1) 70%);
             -webkit-box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
