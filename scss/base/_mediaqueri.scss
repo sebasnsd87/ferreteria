@@ -528,6 +528,45 @@
             }
         }
     }
+
+    .contenedor{
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-auto-rows: 200px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .servicios__contenedor{
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 10px;
+    }
+    
+    .tigre{
+        grid-column: 1 / 2;
+    }
+
+    .virtu{
+        grid-column: 1 / 2;
+    }
+    
+    .viabarilo{
+        grid-column: 2 / 3;
+    }
+    
+    .crucero{
+        grid-column: 1 / 2;
+    }
+
+    .singer{
+        grid-column: 2 / 3;
+    }
+
+    .plata{
+        grid-column: 2 / 3;
+    }
+
     .producto-ferre .catalogoFerre{
         width: 100%;
         display: flex;
@@ -700,6 +739,44 @@
             color: black;
             padding: 10px;
         }
+    }
+
+    .contenedor{
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-auto-rows: 200px;
+        grid-template-columns: 1fr;
+    }
+    
+    .servicios__contenedor{
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 10px;
+    }
+    
+    .tigre{
+        grid-column: 1 / 2;
+    }
+
+    .virtu{
+        grid-column: 1 / 2;
+    }
+    
+    .viabarilo{
+        grid-column: 1 / 2;
+    }
+    
+    .crucero{
+        grid-column: 1 / 2;
+    }
+
+    .singer{
+        grid-column: 1 / 2;
+    }
+
+    .plata{
+        grid-column: 1 / 2;
     }
 }
 
