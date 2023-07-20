@@ -3,20 +3,17 @@ let nombre = prompt("¡Hola! ¿Cómo te llamas?");
 alert(`¡Bienvenido/a la tienda de Ferreteria y Repuestos Emilio, ${nombre}!`);
 
 
-// Creamos un array vacío para el carrito de compras
 const carrito = [];
 
-//Ordenar productos de menor a mayor precio
 const ordenarMenorMayor = () => {
     productosFerre.sort((a,b)=> a.precio - b.precio);
-    // console.log(productos);
+    
     mostrarListaOrdenada();
 }
 
-//Ordenar productos de mayor a menor precio
 const ordenarMayorMenor = () => {
     productosFerre.sort((a,b)=> b.precio - a.precio);
-    // console.log(productos);
+    
     mostrarListaOrdenada();
 }
 
