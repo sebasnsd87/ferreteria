@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>FERRETERIA EMILIO | Todo lo que buscas en un solo lugar!</title>
-        <link rel="icon" type="image/png" href="../img/favicon.png">
-        <!--KEYWORDS-->
-        <meta name="keywords" content="ferreteria, mensaje, contacto, lugar, ubicacion, whatsapp, redes, solucion, problemas, repuestos">
-        <!--DESCRIPCION-->
-        <meta name="description" content="Negocio familiar con 37 años de experiencia en el rubro, encontraras diferentes productos para el hogar, tu auto, bicicleta o moto">
-        <!--PROTOCOLO OPEN GRAPH-->
-        <meta property="og:type" content="Web site">
-        <meta property="og:title" content="FERRETERIA EMILIO | Todo lo que buscas en un solo lugar!">
-        <meta property="og:url" content="https://ferreteria-emilio.netlify.app/">
-        <meta property="og:image" content="https://ferreteria-emilio.netlify.app/img/EmilioContacto-200.png">
-        <meta property="og:description" content="Negocio familiar con 36 años de experiencia en el rubro, encontraras diferentes productos para el hogar, tu auto, bicicleta o moto">
-        <!--------------------SASS------------------->
-        <link rel="stylesheet" href="../css/estilos.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FERRETERIA EMILIO | Todo lo que buscas en un solo lugar!</title>
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+    <!--EmailJS-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('4bbCK443WVaRgg872')
+    </script>
+    <!--Sweet alert---->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--toastify-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--KEYWORDS-->
+    <meta name="keywords"
+        content="ferreteria, mensaje, contacto, lugar, ubicacion, whatsapp, redes, solucion, problemas, repuestos">
+    <!--DESCRIPCION-->
+    <meta name="description"
+        content="Negocio familiar con 37 años de experiencia en el rubro, encontraras diferentes productos para el hogar, tu auto, bicicleta o moto">
+    <!--PROTOCOLO OPEN GRAPH-->
+    <meta property="og:type" content="Web site">
+    <meta property="og:title" content="FERRETERIA EMILIO | Todo lo que buscas en un solo lugar!">
+    <meta property="og:url" content="https://ferreteria-emilio.netlify.app/">
+    <meta property="og:image" content="https://ferreteria-emilio.netlify.app/img/EmilioContacto-200.png">
+    <meta property="og:description"
+        content="Negocio familiar con 36 años de experiencia en el rubro, encontraras diferentes productos para el hogar, tu auto, bicicleta o moto">
+    <!--------------------SASS------------------->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
 <body>
     <header class="heroContacto">
         <nav class="encabezadoContacto">
             <h1 class="animate__animated animate__backInDown">FERRETERIA Y REPUESTOS EMILIO</h1>
             <ul class="encabezado__lista animate__animated animate__jackInTheBox">
                 <li><a href="../index.html">INICIO</a></li>
-                <li><a href="./acercade.html">ACERCA DE NOSOTROS</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
                 <li><a href="./productos.html">PRODUCTOS</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+                <li><a href="./acercade.html">ACERCA DE NOSOTROS</a></li>               
                 <li><a href="./servicios.html">SERVICIOS</a></li>
             </ul>
         </nav>
@@ -38,38 +56,43 @@
     </header>
     <main class="contacto-main">
         <h2>DEJANOS TU MENSAJE!!</h2>
-    <section class="mensaje">
-        <form class="formulario" action="" method="" enctype="">
-            <div>
-                <input class="input" type="text" name="nombre" id="nombre" placeholder="Nombre">
-            </div>
-            <div>
-                <input class="input" type="text" name="apellido" id="apellido" placeholder="Apellido">
-            </div>
-            <div>
-                <input class="input" type="text" name="telefono" id="telefono" placeholder="Telefono">
-            </div>
-            <div>
-                <input class="input" type="email" name="email" id="email" placeholder="Email">
-            </div>
-            <div class="textarea">
-                <textarea name="" id="" cols="37" rows="10" placeholder="Dejanos tu mensaje"></textarea>
-            </div>
-            <div>
-                <input class="aceptar" type="submit">
-                <input class="restablecer" type="reset">
-            </div>
-        </form>
-    </section>
-    <section class="ubicacion">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.533432479842!2d-55.407713010464825!3d-27.14314817140734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f80bf73f2cdc3b%3A0xbaec347856043345!2sFerreteria%20Y%20Repuestos%20Emilio!5e0!3m2!1ses!2sar!4v1680195809900!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+        <section class="mensaje">
+            <form class="formulario" id="formulario" action="" method="" enctype="">
+                <div>
+                    <input class="input" type="text" name="nombre" id="nombre" placeholder="Nombre">
+                </div>
+                <div>
+                    <input class="input" type="text" name="apellido" id="apellido" placeholder="Apellido">
+                </div>
+                <div>
+                    <input class="input" type="text" name="telefono" id="telefono" placeholder="Telefono">
+                </div>
+                <div>
+                    <input class="input" type="email" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="textarea">
+                    <textarea name="" id="mensaje" cols="37" rows="10" placeholder="Dejanos tu mensaje"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+        <section class="ubicacion">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.533432479842!2d-55.407713010464825!3d-27.14314817140734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f80bf73f2cdc3b%3A0xbaec347856043345!2sFerreteria%20Y%20Repuestos%20Emilio!5e0!3m2!1ses!2sar!4v1680195809900!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </main>
     <footer class="footerContacto">
         <section class="piedepaginaContacto">
-            <a href="https://es-la.facebook.com/" target="_blank"><img src="../img/facebook.png" alt="Icono Facebook"></a>
-            <a href="https://services.tochat.be/es/api/business/send/0eb27634-f70f-4b4a-bde5-ad7ed90abb95" target="_blank"><img src="../img/whatsapp.png" alt="Icono Whatsapp"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram.png" alt="Icono Instagram"></a>
+            <a href="https://es-la.facebook.com/" target="_blank"><img src="../img/facebook.png"
+                    alt="Icono Facebook"></a>
+            <a href="https://services.tochat.be/es/api/business/send/0eb27634-f70f-4b4a-bde5-ad7ed90abb95"
+                target="_blank"><img src="../img/whatsapp.png" alt="Icono Whatsapp"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram.png"
+                    alt="Icono Instagram"></a>
         </section>
         <section class="tarjetas-credito">
             <h2>ACEPTAMOS TODAS LAS TARJETAS Y METODOS DE PAGO</h2>
@@ -86,5 +109,13 @@
             <h6>Copyright®2023 SERVIOWEB</h6>
         </section>
     </footer>
+    <script src="../js/contacto.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
+
 </html>
